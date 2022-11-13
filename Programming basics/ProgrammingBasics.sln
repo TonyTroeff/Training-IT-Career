@@ -3,33 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "Introduction\HelloWorld\HelloWorld.csproj", "{A0B8E9FE-8FB4-46EA-95CA-81061B053821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "Introduction\HelloWorld\HelloWorld.csproj", "{A0B8E9FE-8FB4-46EA-95CA-81061B053821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nums1To20", "Introduction\Nums1To20\Nums1To20.csproj", "{4598507E-405C-4279-A00B-F61F7754FE08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nums1To20", "Introduction\Nums1To20\Nums1To20.csproj", "{4598507E-405C-4279-A00B-F61F7754FE08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleOf55Stars", "Introduction\TriangleOf55Stars\TriangleOf55Stars.csproj", "{03EE2386-17E9-451A-AC87-F83F874F20C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleOf55Stars", "Introduction\TriangleOf55Stars\TriangleOf55Stars.csproj", "{03EE2386-17E9-451A-AC87-F83F874F20C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleSquare", "Introduction\RectangleSquare\RectangleSquare.csproj", "{078271C7-FD10-467E-B3CD-A35B8AEEE41A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectangleSquare", "Introduction\RectangleSquare\RectangleSquare.csproj", "{078271C7-FD10-467E-B3CD-A35B8AEEE41A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareOfNStars", "Introduction\SquareOfNStars\SquareOfNStars.csproj", "{2A7CF7B8-FA1C-4A62-AB4E-60583C463F90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareOfNStars", "Introduction\SquareOfNStars\SquareOfNStars.csproj", "{2A7CF7B8-FA1C-4A62-AB4E-60583C463F90}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction", "Introduction", "{A16C2F28-CA64-4C83-AC2A-FFD7F5F81B27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareArea", "Introduction\SquareArea\SquareArea.csproj", "{CF15B513-1FA2-4611-AF58-AF2172620A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareArea", "Introduction\SquareArea\SquareArea.csproj", "{CF15B513-1FA2-4611-AF58-AF2172620A75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InchesToCentimeters", "Introduction\InchesToCentimeters\InchesToCentimeters.csproj", "{47467CF0-13E4-49F9-8DC5-230DE29D05E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InchesToCentimeters", "Introduction\InchesToCentimeters\InchesToCentimeters.csproj", "{47467CF0-13E4-49F9-8DC5-230DE29D05E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Introduction\Greeting\Greeting.csproj", "{2B2FDA69-B157-4296-908F-C5F820BA6197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greeting", "Introduction\Greeting\Greeting.csproj", "{2B2FDA69-B157-4296-908F-C5F820BA6197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenateData", "Introduction\ConcatenateData\ConcatenateData.csproj", "{C7BADC06-1910-495D-A6C7-D430684087AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcatenateData", "Introduction\ConcatenateData\ConcatenateData.csproj", "{C7BADC06-1910-495D-A6C7-D430684087AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsiusToFahrenheit", "Introduction\CelsiusToFahrenheit\CelsiusToFahrenheit.csproj", "{9511B0BC-897D-4681-966E-4DB2C8F78FBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CelsiusToFahrenheit", "Introduction\CelsiusToFahrenheit\CelsiusToFahrenheit.csproj", "{9511B0BC-897D-4681-966E-4DB2C8F78FBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadiansToDegrees", "Introduction\RadiansToDegrees\RadiansToDegrees.csproj", "{024B5BFB-2B91-41A4-9C29-87F2FB55B376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadiansToDegrees", "Introduction\RadiansToDegrees\RadiansToDegrees.csproj", "{024B5BFB-2B91-41A4-9C29-87F2FB55B376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrapezoidArea", "Introduction\TrapezoidArea\TrapezoidArea.csproj", "{75ED9157-FCC6-46A4-A31B-9CD06AE353BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrapezoidArea", "Introduction\TrapezoidArea\TrapezoidArea.csproj", "{75ED9157-FCC6-46A4-A31B-9CD06AE353BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsdToBgn", "Introduction\UsdToBgn\UsdToBgn.csproj", "{A4D82DA0-771B-4D44-9248-F526CDB8DF4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsdToBgn", "Introduction\UsdToBgn\UsdToBgn.csproj", "{A4D82DA0-771B-4D44-9248-F526CDB8DF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleAreaPerimeter", "CircleAreaPerimeter\CircleAreaPerimeter.csproj", "{EC447646-F9E1-4EDB-9555-F460113957CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{A4D82DA0-771B-4D44-9248-F526CDB8DF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4D82DA0-771B-4D44-9248-F526CDB8DF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4D82DA0-771B-4D44-9248-F526CDB8DF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC447646-F9E1-4EDB-9555-F460113957CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC447646-F9E1-4EDB-9555-F460113957CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC447646-F9E1-4EDB-9555-F460113957CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC447646-F9E1-4EDB-9555-F460113957CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +113,7 @@ Global
 		{024B5BFB-2B91-41A4-9C29-87F2FB55B376} = {A16C2F28-CA64-4C83-AC2A-FFD7F5F81B27}
 		{75ED9157-FCC6-46A4-A31B-9CD06AE353BA} = {A16C2F28-CA64-4C83-AC2A-FFD7F5F81B27}
 		{A4D82DA0-771B-4D44-9248-F526CDB8DF4B} = {A16C2F28-CA64-4C83-AC2A-FFD7F5F81B27}
+		{EC447646-F9E1-4EDB-9555-F460113957CE} = {A16C2F28-CA64-4C83-AC2A-FFD7F5F81B27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EA9153-0B85-4A4A-AB5B-52B9321DDF84}
