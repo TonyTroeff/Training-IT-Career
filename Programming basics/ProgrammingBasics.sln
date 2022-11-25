@@ -135,33 +135,45 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "House", "Loops\House\House.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diamond", "Loops\Diamond\Diamond.csproj", "{B514A3D3-B6A6-4910-8199-63FDF23A6A3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopByStep3", "Loops\LoopByStep3\LoopByStep3.csproj", "{768787B0-A03F-4B08-9146-9EA4C8BA921E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopByStep3", "Loops\LoopByStep3\LoopByStep3.csproj", "{768787B0-A03F-4B08-9146-9EA4C8BA921E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersFromNTo1", "Loops\NumbersFromNTo1\NumbersFromNTo1.csproj", "{464D1221-0F8B-4200-87CB-0FD2AA05E2FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumbersFromNTo1", "Loops\NumbersFromNTo1\NumbersFromNTo1.csproj", "{464D1221-0F8B-4200-87CB-0FD2AA05E2FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersPowerOf2", "Loops\NumbersPowerOf2\NumbersPowerOf2.csproj", "{8D24B47A-A16C-4C10-B557-A270F6831C0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumbersPowerOf2", "Loops\NumbersPowerOf2\NumbersPowerOf2.csproj", "{8D24B47A-A16C-4C10-B557-A270F6831C0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenPowerOf2", "Loops\EvenPowerOf2\EvenPowerOf2.csproj", "{B1BF0608-3D43-4AFC-A7EC-D8B255CE3F6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenPowerOf2", "Loops\EvenPowerOf2\EvenPowerOf2.csproj", "{B1BF0608-3D43-4AFC-A7EC-D8B255CE3F6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderOf2kPlus1", "Loops\OrderOf2kPlus1\OrderOf2kPlus1.csproj", "{122B57D3-5CFF-410C-83D1-D88888E68D03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderOf2kPlus1", "Loops\OrderOf2kPlus1\OrderOf2kPlus1.csproj", "{122B57D3-5CFF-410C-83D1-D88888E68D03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberInRangeFrom1To100", "Loops\NumberInRangeFrom1To100\NumberInRangeFrom1To100.csproj", "{439C74F5-8F17-4F2F-81A7-2EBC4D2C3DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberInRangeFrom1To100", "Loops\NumberInRangeFrom1To100\NumberInRangeFrom1To100.csproj", "{439C74F5-8F17-4F2F-81A7-2EBC4D2C3DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCD", "Loops\LCD\LCD.csproj", "{8D35CEE7-D852-4F3F-A8A5-DCACEF853910}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LCD", "Loops\LCD\LCD.csproj", "{8D35CEE7-D852-4F3F-A8A5-DCACEF853910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumDigitsOfNumber", "Loops\SumDigitsOfNumber\SumDigitsOfNumber.csproj", "{3AF31E16-0099-4932-8C4F-89D68C00F563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumDigitsOfNumber", "Loops\SumDigitsOfNumber\SumDigitsOfNumber.csproj", "{3AF31E16-0099-4932-8C4F-89D68C00F563}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "Loops\Factorial\Factorial.csproj", "{33726925-249E-497C-A0DC-733CA3BF9740}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumber", "Loops\PrimeNumber\PrimeNumber.csproj", "{43978115-707A-432E-8DE0-900E75525501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumber", "Loops\PrimeNumber\PrimeNumber.csproj", "{43978115-707A-432E-8DE0-900E75525501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumberWithCheck", "Loops\EvenNumberWithCheck\EvenNumberWithCheck.csproj", "{EAE52899-B972-4229-BFC0-5271245EE33E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenNumberWithCheck", "Loops\EvenNumberWithCheck\EvenNumberWithCheck.csproj", "{EAE52899-B972-4229-BFC0-5271245EE33E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumber", "Loops\FibonacciNumber\FibonacciNumber.csproj", "{D4A44CF0-8BEF-4E70-BF38-52CBE55C3A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciNumber", "Loops\FibonacciNumber\FibonacciNumber.csproj", "{D4A44CF0-8BEF-4E70-BF38-52CBE55C3A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PyramidOfNumbers", "Loops\PyramidOfNumbers\PyramidOfNumbers.csproj", "{086523BC-4D15-4D38-9DB2-AAAF327A06C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PyramidOfNumbers", "Loops\PyramidOfNumbers\PyramidOfNumbers.csproj", "{086523BC-4D15-4D38-9DB2-AAAF327A06C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixOfNumbers", "Loops\MatrixOfNumbers\MatrixOfNumbers.csproj", "{0D599F54-1495-48C5-8977-D8C381DD4589}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixOfNumbers", "Loops\MatrixOfNumbers\MatrixOfNumbers.csproj", "{0D599F54-1495-48C5-8977-D8C381DD4589}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Methods", "Methods", "{E9820F80-F663-4742-B63A-85678FD8AA1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashReceipt", "Methods\CashReceipt\CashReceipt.csproj", "{6F48DFD1-2F26-40B8-A82D-59389821CE9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WholeNumberSign", "Methods\WholeNumberSign\WholeNumberSign.csproj", "{1FBBDCD1-12C5-454E-98AE-13B8B8F92D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintTriangle", "Methods\PrintTriangle\PrintTriangle.csproj", "{6B4D03E6-E82C-476C-98ED-E98F00C9869B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawFillRectangle", "Methods\DrawFillRectangle\DrawFillRectangle.csproj", "{9FA29DC7-E380-48E1-A026-09DF3EC2184F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleArea", "Methods\TriangleArea\TriangleArea.csproj", "{98274BA3-258A-4D7A-B2A5-EE5DDBE9248B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -477,6 +489,26 @@ Global
 		{0D599F54-1495-48C5-8977-D8C381DD4589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D599F54-1495-48C5-8977-D8C381DD4589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D599F54-1495-48C5-8977-D8C381DD4589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F48DFD1-2F26-40B8-A82D-59389821CE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F48DFD1-2F26-40B8-A82D-59389821CE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F48DFD1-2F26-40B8-A82D-59389821CE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F48DFD1-2F26-40B8-A82D-59389821CE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBBDCD1-12C5-454E-98AE-13B8B8F92D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBBDCD1-12C5-454E-98AE-13B8B8F92D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBBDCD1-12C5-454E-98AE-13B8B8F92D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBBDCD1-12C5-454E-98AE-13B8B8F92D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4D03E6-E82C-476C-98ED-E98F00C9869B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4D03E6-E82C-476C-98ED-E98F00C9869B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4D03E6-E82C-476C-98ED-E98F00C9869B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4D03E6-E82C-476C-98ED-E98F00C9869B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA29DC7-E380-48E1-A026-09DF3EC2184F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA29DC7-E380-48E1-A026-09DF3EC2184F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA29DC7-E380-48E1-A026-09DF3EC2184F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA29DC7-E380-48E1-A026-09DF3EC2184F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98274BA3-258A-4D7A-B2A5-EE5DDBE9248B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98274BA3-258A-4D7A-B2A5-EE5DDBE9248B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98274BA3-258A-4D7A-B2A5-EE5DDBE9248B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98274BA3-258A-4D7A-B2A5-EE5DDBE9248B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -559,6 +591,11 @@ Global
 		{D4A44CF0-8BEF-4E70-BF38-52CBE55C3A00} = {6221B35E-4D01-4B72-8507-3EA2131B8FF1}
 		{086523BC-4D15-4D38-9DB2-AAAF327A06C1} = {6221B35E-4D01-4B72-8507-3EA2131B8FF1}
 		{0D599F54-1495-48C5-8977-D8C381DD4589} = {6221B35E-4D01-4B72-8507-3EA2131B8FF1}
+		{6F48DFD1-2F26-40B8-A82D-59389821CE9B} = {E9820F80-F663-4742-B63A-85678FD8AA1E}
+		{1FBBDCD1-12C5-454E-98AE-13B8B8F92D93} = {E9820F80-F663-4742-B63A-85678FD8AA1E}
+		{6B4D03E6-E82C-476C-98ED-E98F00C9869B} = {E9820F80-F663-4742-B63A-85678FD8AA1E}
+		{9FA29DC7-E380-48E1-A026-09DF3EC2184F} = {E9820F80-F663-4742-B63A-85678FD8AA1E}
+		{98274BA3-258A-4D7A-B2A5-EE5DDBE9248B} = {E9820F80-F663-4742-B63A-85678FD8AA1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EA9153-0B85-4A4A-AB5B-52B9321DDF84}
