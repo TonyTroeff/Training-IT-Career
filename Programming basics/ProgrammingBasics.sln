@@ -165,21 +165,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixOfNumbers", "Loops\Ma
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Methods", "Methods", "{E9820F80-F663-4742-B63A-85678FD8AA1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashReceipt", "Methods\CashReceipt\CashReceipt.csproj", "{6F48DFD1-2F26-40B8-A82D-59389821CE9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashReceipt", "Methods\CashReceipt\CashReceipt.csproj", "{6F48DFD1-2F26-40B8-A82D-59389821CE9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WholeNumberSign", "Methods\WholeNumberSign\WholeNumberSign.csproj", "{1FBBDCD1-12C5-454E-98AE-13B8B8F92D93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WholeNumberSign", "Methods\WholeNumberSign\WholeNumberSign.csproj", "{1FBBDCD1-12C5-454E-98AE-13B8B8F92D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintTriangle", "Methods\PrintTriangle\PrintTriangle.csproj", "{6B4D03E6-E82C-476C-98ED-E98F00C9869B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintTriangle", "Methods\PrintTriangle\PrintTriangle.csproj", "{6B4D03E6-E82C-476C-98ED-E98F00C9869B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawFillRectangle", "Methods\DrawFillRectangle\DrawFillRectangle.csproj", "{9FA29DC7-E380-48E1-A026-09DF3EC2184F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawFillRectangle", "Methods\DrawFillRectangle\DrawFillRectangle.csproj", "{9FA29DC7-E380-48E1-A026-09DF3EC2184F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleArea", "Methods\TriangleArea\TriangleArea.csproj", "{98274BA3-258A-4D7A-B2A5-EE5DDBE9248B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleArea", "Methods\TriangleArea\TriangleArea.csproj", "{98274BA3-258A-4D7A-B2A5-EE5DDBE9248B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerOfNumber", "Methods\PowerOfNumber\PowerOfNumber.csproj", "{B3D22FA1-3C25-4129-979A-182A16EB89EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerOfNumber", "Methods\PowerOfNumber\PowerOfNumber.csproj", "{B3D22FA1-3C25-4129-979A-182A16EB89EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxOF2Values", "Methods\MaxOF2Values\MaxOF2Values.csproj", "{A5154272-BE09-4548-801B-9FFA59A97CB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxOF2Values", "Methods\MaxOF2Values\MaxOF2Values.csproj", "{A5154272-BE09-4548-801B-9FFA59A97CB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOddSumMultiplication", "Methods\EvenOddSumMultiplication\EvenOddSumMultiplication.csproj", "{14723C3F-F4C0-4964-A917-5484B8FDE458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenOddSumMultiplication", "Methods\EvenOddSumMultiplication\EvenOddSumMultiplication.csproj", "{14723C3F-F4C0-4964-A917-5484B8FDE458}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam preparation", "Exam preparation", "{DBBD1985-8044-4770-A259-DB8818ABC18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_Money", "Exam preparation\Exam4_Money\Exam4_Money.csproj", "{37683BE2-5D97-48CE-89AB-1BFA260CBF9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_Harvest", "Exam preparation\Exam4_Harvest\Exam4_Harvest.csproj", "{3185B82D-1673-457C-99EF-519ECE992239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_MatchTickets", "Exam preparation\Exam4_MatchTickets\Exam4_MatchTickets.csproj", "{9B3D44FA-47AB-4AD7-A347-C06B21DD7564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_BackToThePast", "Exam preparation\Exam4_BackToThePast\Exam4_BackToThePast.csproj", "{74378CC3-D432-413F-95BE-837CEFCDB7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_Diamond", "Exam preparation\Exam4_Diamond\Exam4_Diamond.csproj", "{A20AA3F1-DD6C-4AA6-AD66-40C81800C96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_StopNumber", "Exam preparation\Exam4_StopNumber\Exam4_StopNumber.csproj", "{D0813379-7E38-4DE7-9F1B-9AB9A42B7AA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -527,6 +541,30 @@ Global
 		{14723C3F-F4C0-4964-A917-5484B8FDE458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14723C3F-F4C0-4964-A917-5484B8FDE458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14723C3F-F4C0-4964-A917-5484B8FDE458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37683BE2-5D97-48CE-89AB-1BFA260CBF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37683BE2-5D97-48CE-89AB-1BFA260CBF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37683BE2-5D97-48CE-89AB-1BFA260CBF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37683BE2-5D97-48CE-89AB-1BFA260CBF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3185B82D-1673-457C-99EF-519ECE992239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3185B82D-1673-457C-99EF-519ECE992239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3185B82D-1673-457C-99EF-519ECE992239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3185B82D-1673-457C-99EF-519ECE992239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3D44FA-47AB-4AD7-A347-C06B21DD7564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3D44FA-47AB-4AD7-A347-C06B21DD7564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3D44FA-47AB-4AD7-A347-C06B21DD7564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3D44FA-47AB-4AD7-A347-C06B21DD7564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74378CC3-D432-413F-95BE-837CEFCDB7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74378CC3-D432-413F-95BE-837CEFCDB7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74378CC3-D432-413F-95BE-837CEFCDB7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74378CC3-D432-413F-95BE-837CEFCDB7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20AA3F1-DD6C-4AA6-AD66-40C81800C96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20AA3F1-DD6C-4AA6-AD66-40C81800C96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20AA3F1-DD6C-4AA6-AD66-40C81800C96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20AA3F1-DD6C-4AA6-AD66-40C81800C96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0813379-7E38-4DE7-9F1B-9AB9A42B7AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0813379-7E38-4DE7-9F1B-9AB9A42B7AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0813379-7E38-4DE7-9F1B-9AB9A42B7AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0813379-7E38-4DE7-9F1B-9AB9A42B7AA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -617,6 +655,12 @@ Global
 		{B3D22FA1-3C25-4129-979A-182A16EB89EF} = {E9820F80-F663-4742-B63A-85678FD8AA1E}
 		{A5154272-BE09-4548-801B-9FFA59A97CB2} = {E9820F80-F663-4742-B63A-85678FD8AA1E}
 		{14723C3F-F4C0-4964-A917-5484B8FDE458} = {E9820F80-F663-4742-B63A-85678FD8AA1E}
+		{37683BE2-5D97-48CE-89AB-1BFA260CBF9C} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{3185B82D-1673-457C-99EF-519ECE992239} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{9B3D44FA-47AB-4AD7-A347-C06B21DD7564} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{74378CC3-D432-413F-95BE-837CEFCDB7BA} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{A20AA3F1-DD6C-4AA6-AD66-40C81800C96C} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{D0813379-7E38-4DE7-9F1B-9AB9A42B7AA4} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EA9153-0B85-4A4A-AB5B-52B9321DDF84}
