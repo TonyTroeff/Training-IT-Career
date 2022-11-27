@@ -207,6 +207,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1_OnTimeForTheExam", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Digits", "Exam preparation\Exam5_Digits\Exam5_Digits.csproj", "{6D0E3F6F-5F95-4CB5-9D98-934FDA2B012D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_MagicCombinations", "Loops\Exam2_MagicCombinations\Exam2_MagicCombinations.csproj", "{94F6871D-DF90-4A8B-9DBD-85B33D1685A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_PoolPipes", "Exam preparation\Exam2_PoolPipes\Exam2_PoolPipes.csproj", "{6D01304B-8050-4FD0-A70F-28CA9A88C883}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -601,6 +605,14 @@ Global
 		{6D0E3F6F-5F95-4CB5-9D98-934FDA2B012D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D0E3F6F-5F95-4CB5-9D98-934FDA2B012D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D0E3F6F-5F95-4CB5-9D98-934FDA2B012D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F6871D-DF90-4A8B-9DBD-85B33D1685A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F6871D-DF90-4A8B-9DBD-85B33D1685A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F6871D-DF90-4A8B-9DBD-85B33D1685A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F6871D-DF90-4A8B-9DBD-85B33D1685A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D01304B-8050-4FD0-A70F-28CA9A88C883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D01304B-8050-4FD0-A70F-28CA9A88C883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D01304B-8050-4FD0-A70F-28CA9A88C883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D01304B-8050-4FD0-A70F-28CA9A88C883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -703,6 +715,8 @@ Global
 		{FD1D1E8D-400C-46C0-AD32-78EB8940DF75} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{A1BBF2F2-1839-4511-BC44-FAAD63FE8028} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{6D0E3F6F-5F95-4CB5-9D98-934FDA2B012D} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{94F6871D-DF90-4A8B-9DBD-85B33D1685A4} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{6D01304B-8050-4FD0-A70F-28CA9A88C883} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EA9153-0B85-4A4A-AB5B-52B9321DDF84}
