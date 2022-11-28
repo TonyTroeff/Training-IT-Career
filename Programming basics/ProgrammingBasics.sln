@@ -229,6 +229,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam3_SpecialNumbers", "Exa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Profit", "Exam preparation\Exam5_Profit\Exam5_Profit.csproj", "{03836AF9-CE38-4088-AEF9-706CA0335A4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Firm", "Exam preparation\Exam5_Firm\Exam5_Firm.csproj", "{3A277681-A699-4B61-A3DA-D9255DE1BD5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -667,6 +669,10 @@ Global
 		{03836AF9-CE38-4088-AEF9-706CA0335A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03836AF9-CE38-4088-AEF9-706CA0335A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03836AF9-CE38-4088-AEF9-706CA0335A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A277681-A699-4B61-A3DA-D9255DE1BD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A277681-A699-4B61-A3DA-D9255DE1BD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A277681-A699-4B61-A3DA-D9255DE1BD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A277681-A699-4B61-A3DA-D9255DE1BD5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -780,6 +786,7 @@ Global
 		{DE9EAF10-31EB-473A-9B0B-A1165B72CF40} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{A7DFAD30-4A30-49A3-A038-1C1D3E289FC3} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{03836AF9-CE38-4088-AEF9-706CA0335A4F} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{3A277681-A699-4B61-A3DA-D9255DE1BD5D} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EA9153-0B85-4A4A-AB5B-52B9321DDF84}
