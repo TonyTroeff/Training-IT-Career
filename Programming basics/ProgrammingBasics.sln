@@ -233,6 +233,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Firm", "Exam preparat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_HotelRoom", "Exam preparation\Exam5_HotelRoom\Exam5_HotelRoom.csproj", "{5C87A32D-DCF8-4FB6-9573-DE52B6D58AA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Hospital", "Exam preparation\Exam5_Hospital\Exam5_Hospital.csproj", "{16FF72CA-76E6-4194-9C1A-BDEA787F9735}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -679,6 +681,10 @@ Global
 		{5C87A32D-DCF8-4FB6-9573-DE52B6D58AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C87A32D-DCF8-4FB6-9573-DE52B6D58AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C87A32D-DCF8-4FB6-9573-DE52B6D58AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FF72CA-76E6-4194-9C1A-BDEA787F9735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FF72CA-76E6-4194-9C1A-BDEA787F9735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FF72CA-76E6-4194-9C1A-BDEA787F9735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FF72CA-76E6-4194-9C1A-BDEA787F9735}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -794,6 +800,7 @@ Global
 		{03836AF9-CE38-4088-AEF9-706CA0335A4F} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{3A277681-A699-4B61-A3DA-D9255DE1BD5D} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{5C87A32D-DCF8-4FB6-9573-DE52B6D58AA2} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{16FF72CA-76E6-4194-9C1A-BDEA787F9735} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EA9153-0B85-4A4A-AB5B-52B9321DDF84}
