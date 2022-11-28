@@ -211,21 +211,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam2_MagicCombinations", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam2_PoolPipes", "Exam preparation\Exam2_PoolPipes\Exam2_PoolPipes.csproj", "{6D01304B-8050-4FD0-A70F-28CA9A88C883}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_VegetableMarket", "Exam preparation\Exam2_VegetableMarket\Exam2_VegetableMarket.csproj", "{FA2028A4-959F-4C87-95A5-4403DCBE502F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam2_VegetableMarket", "Exam preparation\Exam2_VegetableMarket\Exam2_VegetableMarket.csproj", "{FA2028A4-959F-4C87-95A5-4403DCBE502F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_Trip", "Exam preparation\Exam2_Trip\Exam2_Trip.csproj", "{85B2E7EA-84C0-41FA-8C46-FACB3B424F7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam2_Trip", "Exam preparation\Exam2_Trip\Exam2_Trip.csproj", "{85B2E7EA-84C0-41FA-8C46-FACB3B424F7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_Division", "Exam preparation\Exam2_Division\Exam2_Division.csproj", "{446B7411-DCAE-42FE-83F5-F3F91D171C16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam2_Division", "Exam preparation\Exam2_Division\Exam2_Division.csproj", "{446B7411-DCAE-42FE-83F5-F3F91D171C16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_Butterfly", "Exam preparation\Exam2_Butterfly\Exam2_Butterfly.csproj", "{BCB6D778-C3A0-4520-8546-D7F203255B18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam2_Butterfly", "Exam preparation\Exam2_Butterfly\Exam2_Butterfly.csproj", "{BCB6D778-C3A0-4520-8546-D7F203255B18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam3_Operations", "Exam preparation\Exam3_Operations\Exam3_Operations.csproj", "{847407D3-3406-48DA-AFE1-500E288EE1EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam3_Operations", "Exam preparation\Exam3_Operations\Exam3_Operations.csproj", "{847407D3-3406-48DA-AFE1-500E288EE1EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam3_SmartLilly", "Exam preparation\Exam3_SmartLilly\Exam3_SmartLilly.csproj", "{B7F7389B-A022-4249-86B8-E4811420BDBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam3_SmartLilly", "Exam preparation\Exam3_SmartLilly\Exam3_SmartLilly.csproj", "{B7F7389B-A022-4249-86B8-E4811420BDBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam3_Stop", "Exam preparation\Exam3_Stop\Exam3_Stop.csproj", "{DE9EAF10-31EB-473A-9B0B-A1165B72CF40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam3_Stop", "Exam preparation\Exam3_Stop\Exam3_Stop.csproj", "{DE9EAF10-31EB-473A-9B0B-A1165B72CF40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam3_SpecialNumbers", "Exam preparation\Exam3_SpecialNumbers\Exam3_SpecialNumbers.csproj", "{A7DFAD30-4A30-49A3-A038-1C1D3E289FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam3_SpecialNumbers", "Exam preparation\Exam3_SpecialNumbers\Exam3_SpecialNumbers.csproj", "{A7DFAD30-4A30-49A3-A038-1C1D3E289FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Profit", "Exam preparation\Exam5_Profit\Exam5_Profit.csproj", "{03836AF9-CE38-4088-AEF9-706CA0335A4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -661,6 +663,10 @@ Global
 		{A7DFAD30-4A30-49A3-A038-1C1D3E289FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7DFAD30-4A30-49A3-A038-1C1D3E289FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7DFAD30-4A30-49A3-A038-1C1D3E289FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03836AF9-CE38-4088-AEF9-706CA0335A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03836AF9-CE38-4088-AEF9-706CA0335A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03836AF9-CE38-4088-AEF9-706CA0335A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03836AF9-CE38-4088-AEF9-706CA0335A4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -773,6 +779,7 @@ Global
 		{B7F7389B-A022-4249-86B8-E4811420BDBC} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{DE9EAF10-31EB-473A-9B0B-A1165B72CF40} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{A7DFAD30-4A30-49A3-A038-1C1D3E289FC3} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{03836AF9-CE38-4088-AEF9-706CA0335A4F} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EA9153-0B85-4A4A-AB5B-52B9321DDF84}
