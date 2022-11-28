@@ -183,33 +183,41 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenOddSumMultiplication", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam preparation", "Exam preparation", "{DBBD1985-8044-4770-A259-DB8818ABC18C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_Money", "Exam preparation\Exam4_Money\Exam4_Money.csproj", "{37683BE2-5D97-48CE-89AB-1BFA260CBF9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam4_Money", "Exam preparation\Exam4_Money\Exam4_Money.csproj", "{37683BE2-5D97-48CE-89AB-1BFA260CBF9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_Harvest", "Exam preparation\Exam4_Harvest\Exam4_Harvest.csproj", "{3185B82D-1673-457C-99EF-519ECE992239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam4_Harvest", "Exam preparation\Exam4_Harvest\Exam4_Harvest.csproj", "{3185B82D-1673-457C-99EF-519ECE992239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_MatchTickets", "Exam preparation\Exam4_MatchTickets\Exam4_MatchTickets.csproj", "{9B3D44FA-47AB-4AD7-A347-C06B21DD7564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam4_MatchTickets", "Exam preparation\Exam4_MatchTickets\Exam4_MatchTickets.csproj", "{9B3D44FA-47AB-4AD7-A347-C06B21DD7564}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_BackToThePast", "Exam preparation\Exam4_BackToThePast\Exam4_BackToThePast.csproj", "{74378CC3-D432-413F-95BE-837CEFCDB7BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam4_BackToThePast", "Exam preparation\Exam4_BackToThePast\Exam4_BackToThePast.csproj", "{74378CC3-D432-413F-95BE-837CEFCDB7BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_Diamond", "Exam preparation\Exam4_Diamond\Exam4_Diamond.csproj", "{A20AA3F1-DD6C-4AA6-AD66-40C81800C96C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam4_Diamond", "Exam preparation\Exam4_Diamond\Exam4_Diamond.csproj", "{A20AA3F1-DD6C-4AA6-AD66-40C81800C96C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4_StopNumber", "Exam preparation\Exam4_StopNumber\Exam4_StopNumber.csproj", "{D0813379-7E38-4DE7-9F1B-9AB9A42B7AA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam4_StopNumber", "Exam preparation\Exam4_StopNumber\Exam4_StopNumber.csproj", "{D0813379-7E38-4DE7-9F1B-9AB9A42B7AA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1_TrainingLab", "Exam preparation\Exam1_TrainingLab\Exam1_TrainingLab.csproj", "{AE91B2D0-6093-4E7A-BDBC-DC3E614916D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam1_TrainingLab", "Exam preparation\Exam1_TrainingLab\Exam1_TrainingLab.csproj", "{AE91B2D0-6093-4E7A-BDBC-DC3E614916D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1_TransportPrice", "Exam preparation\Exam1_TransportPrice\Exam1_TransportPrice.csproj", "{CB92AD82-5CA9-4468-B496-30F7BEEC3E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam1_TransportPrice", "Exam preparation\Exam1_TransportPrice\Exam1_TransportPrice.csproj", "{CB92AD82-5CA9-4468-B496-30F7BEEC3E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1_Histogram", "Exam preparation\Exam1_Histogram\Exam1_Histogram.csproj", "{21B7E54A-0B7F-4094-B03F-B6E8365790B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam1_Histogram", "Exam preparation\Exam1_Histogram\Exam1_Histogram.csproj", "{21B7E54A-0B7F-4094-B03F-B6E8365790B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1_StupidPasswordGenerator", "Exam preparation\Exam1_StupidPasswordGenerator\Exam1_StupidPasswordGenerator.csproj", "{FD1D1E8D-400C-46C0-AD32-78EB8940DF75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam1_StupidPasswordGenerator", "Exam preparation\Exam1_StupidPasswordGenerator\Exam1_StupidPasswordGenerator.csproj", "{FD1D1E8D-400C-46C0-AD32-78EB8940DF75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1_OnTimeForTheExam", "Exam preparation\Exam1_OnTimeForTheExam\Exam1_OnTimeForTheExam.csproj", "{A1BBF2F2-1839-4511-BC44-FAAD63FE8028}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam1_OnTimeForTheExam", "Exam preparation\Exam1_OnTimeForTheExam\Exam1_OnTimeForTheExam.csproj", "{A1BBF2F2-1839-4511-BC44-FAAD63FE8028}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Digits", "Exam preparation\Exam5_Digits\Exam5_Digits.csproj", "{6D0E3F6F-5F95-4CB5-9D98-934FDA2B012D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam5_Digits", "Exam preparation\Exam5_Digits\Exam5_Digits.csproj", "{6D0E3F6F-5F95-4CB5-9D98-934FDA2B012D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_MagicCombinations", "Loops\Exam2_MagicCombinations\Exam2_MagicCombinations.csproj", "{94F6871D-DF90-4A8B-9DBD-85B33D1685A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam2_MagicCombinations", "Loops\Exam2_MagicCombinations\Exam2_MagicCombinations.csproj", "{94F6871D-DF90-4A8B-9DBD-85B33D1685A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_PoolPipes", "Exam preparation\Exam2_PoolPipes\Exam2_PoolPipes.csproj", "{6D01304B-8050-4FD0-A70F-28CA9A88C883}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam2_PoolPipes", "Exam preparation\Exam2_PoolPipes\Exam2_PoolPipes.csproj", "{6D01304B-8050-4FD0-A70F-28CA9A88C883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_VegetableMarket", "Exam preparation\Exam2_VegetableMarket\Exam2_VegetableMarket.csproj", "{FA2028A4-959F-4C87-95A5-4403DCBE502F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_Trip", "Exam preparation\Exam2_Trip\Exam2_Trip.csproj", "{85B2E7EA-84C0-41FA-8C46-FACB3B424F7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_Division", "Exam preparation\Exam2_Division\Exam2_Division.csproj", "{446B7411-DCAE-42FE-83F5-F3F91D171C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2_Butterfly", "Exam preparation\Exam2_Butterfly\Exam2_Butterfly.csproj", "{BCB6D778-C3A0-4520-8546-D7F203255B18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -613,6 +621,22 @@ Global
 		{6D01304B-8050-4FD0-A70F-28CA9A88C883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D01304B-8050-4FD0-A70F-28CA9A88C883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D01304B-8050-4FD0-A70F-28CA9A88C883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA2028A4-959F-4C87-95A5-4403DCBE502F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2028A4-959F-4C87-95A5-4403DCBE502F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2028A4-959F-4C87-95A5-4403DCBE502F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2028A4-959F-4C87-95A5-4403DCBE502F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B2E7EA-84C0-41FA-8C46-FACB3B424F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B2E7EA-84C0-41FA-8C46-FACB3B424F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B2E7EA-84C0-41FA-8C46-FACB3B424F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B2E7EA-84C0-41FA-8C46-FACB3B424F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446B7411-DCAE-42FE-83F5-F3F91D171C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446B7411-DCAE-42FE-83F5-F3F91D171C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446B7411-DCAE-42FE-83F5-F3F91D171C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446B7411-DCAE-42FE-83F5-F3F91D171C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB6D778-C3A0-4520-8546-D7F203255B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB6D778-C3A0-4520-8546-D7F203255B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB6D778-C3A0-4520-8546-D7F203255B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB6D778-C3A0-4520-8546-D7F203255B18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -717,6 +741,10 @@ Global
 		{6D0E3F6F-5F95-4CB5-9D98-934FDA2B012D} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{94F6871D-DF90-4A8B-9DBD-85B33D1685A4} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{6D01304B-8050-4FD0-A70F-28CA9A88C883} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{FA2028A4-959F-4C87-95A5-4403DCBE502F} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{85B2E7EA-84C0-41FA-8C46-FACB3B424F7C} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{446B7411-DCAE-42FE-83F5-F3F91D171C16} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{BCB6D778-C3A0-4520-8546-D7F203255B18} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EA9153-0B85-4A4A-AB5B-52B9321DDF84}
