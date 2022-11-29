@@ -227,15 +227,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam3_Stop", "Exam preparat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam3_SpecialNumbers", "Exam preparation\Exam3_SpecialNumbers\Exam3_SpecialNumbers.csproj", "{A7DFAD30-4A30-49A3-A038-1C1D3E289FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Profit", "Exam preparation\Exam5_Profit\Exam5_Profit.csproj", "{03836AF9-CE38-4088-AEF9-706CA0335A4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam5_Profit", "Exam preparation\Exam5_Profit\Exam5_Profit.csproj", "{03836AF9-CE38-4088-AEF9-706CA0335A4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Firm", "Exam preparation\Exam5_Firm\Exam5_Firm.csproj", "{3A277681-A699-4B61-A3DA-D9255DE1BD5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam5_Firm", "Exam preparation\Exam5_Firm\Exam5_Firm.csproj", "{3A277681-A699-4B61-A3DA-D9255DE1BD5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_HotelRoom", "Exam preparation\Exam5_HotelRoom\Exam5_HotelRoom.csproj", "{5C87A32D-DCF8-4FB6-9573-DE52B6D58AA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam5_HotelRoom", "Exam preparation\Exam5_HotelRoom\Exam5_HotelRoom.csproj", "{5C87A32D-DCF8-4FB6-9573-DE52B6D58AA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Hospital", "Exam preparation\Exam5_Hospital\Exam5_Hospital.csproj", "{16FF72CA-76E6-4194-9C1A-BDEA787F9735}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam5_Hospital", "Exam preparation\Exam5_Hospital\Exam5_Hospital.csproj", "{16FF72CA-76E6-4194-9C1A-BDEA787F9735}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5_Axe", "Exam preparation\Exam5_Axe\Exam5_Axe.csproj", "{0C3053F0-94F8-4E80-A938-5A4F5FBA7B48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam5_Axe", "Exam preparation\Exam5_Axe\Exam5_Axe.csproj", "{0C3053F0-94F8-4E80-A938-5A4F5FBA7B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afternoon_Exchange", "Exam preparation\Afternoon_Exchange\Afternoon_Exchange.csproj", "{1AC8E7CD-688D-45A0-972A-9F5892143710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -691,6 +693,10 @@ Global
 		{0C3053F0-94F8-4E80-A938-5A4F5FBA7B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C3053F0-94F8-4E80-A938-5A4F5FBA7B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C3053F0-94F8-4E80-A938-5A4F5FBA7B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC8E7CD-688D-45A0-972A-9F5892143710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC8E7CD-688D-45A0-972A-9F5892143710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC8E7CD-688D-45A0-972A-9F5892143710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC8E7CD-688D-45A0-972A-9F5892143710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -808,6 +814,7 @@ Global
 		{5C87A32D-DCF8-4FB6-9573-DE52B6D58AA2} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{16FF72CA-76E6-4194-9C1A-BDEA787F9735} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 		{0C3053F0-94F8-4E80-A938-5A4F5FBA7B48} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
+		{1AC8E7CD-688D-45A0-972A-9F5892143710} = {DBBD1985-8044-4770-A259-DB8818ABC18C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EA9153-0B85-4A4A-AB5B-52B9321DDF84}
