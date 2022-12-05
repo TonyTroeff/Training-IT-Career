@@ -28,7 +28,7 @@ namespace OnTimeForTheExam
             else timeDisplay = $"{diffMinutes} minutes";
 
             string keyword;
-            if (examMinutesSinceMidnight > arrivalMinutesSinceMidnight)
+            if (examMinutesSinceMidnight >= arrivalMinutesSinceMidnight)
             {
                 if (diff <= 30) Console.WriteLine("On time");
                 else Console.WriteLine("Early");
