@@ -241,15 +241,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afternoon_Exchange", "Exam 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam", "Exam", "{817E2C76-58C6-4888-AB82-F685FABFF38E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conference", "Exam\Conference\Conference.csproj", "{0371852B-C1E2-420D-98E7-BA7D4EAF34F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conference", "Exam\Conference\Conference.csproj", "{0371852B-C1E2-420D-98E7-BA7D4EAF34F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFood", "Exam\FastFood\FastFood.csproj", "{CC97F594-3335-4B88-9A18-AF73B5B7D8EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFood", "Exam\FastFood\FastFood.csproj", "{CC97F594-3335-4B88-9A18-AF73B5B7D8EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinterHoliday", "Exam\WinterHoliday\WinterHoliday.csproj", "{B248A14F-E8FE-4BC9-9A55-8652452FE521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinterHoliday", "Exam\WinterHoliday\WinterHoliday.csproj", "{B248A14F-E8FE-4BC9-9A55-8652452FE521}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristmasGifts", "Exam\ChristmasGifts\ChristmasGifts.csproj", "{42FF4BEF-BD6E-471E-861C-0113D3ACEB8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChristmasGifts", "Exam\ChristmasGifts\ChristmasGifts.csproj", "{42FF4BEF-BD6E-471E-861C-0113D3ACEB8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinningCombination", "Exam\WinningCombination\WinningCombination.csproj", "{5D62CEBE-AC1B-4A8D-A4F2-3B621F61CC4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinningCombination", "Exam\WinningCombination\WinningCombination.csproj", "{5D62CEBE-AC1B-4A8D-A4F2-3B621F61CC4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Retake exam", "Retake exam", "{1AACC8C9-4631-45CB-9E1F-F5B0AB4723CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristmasPreparation", "Retake exam\ChristmasPreparation\ChristmasPreparation.csproj", "{0FEF6FB6-71A4-47DC-A1F4-50144B3DE978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SantaClausReindeers", "Retake exam\SantaClausReindeers\SantaClausReindeers.csproj", "{7BB6BDAB-BB66-4B5D-A192-7CF684932195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SantaClausTrip", "Retake exam\SantaClausTrip\SantaClausTrip.csproj", "{6AC8745D-F736-47D7-B20C-F143C199308A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SantaClausGifts", "Retake exam\SantaClausGifts\SantaClausGifts.csproj", "{32DD80F3-9F16-4EF2-9DC0-E3D24707F933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationTable", "Retake exam\MultiplicationTable\MultiplicationTable.csproj", "{431DFD72-81D3-4487-9156-C9FC1CC333AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -729,6 +741,26 @@ Global
 		{5D62CEBE-AC1B-4A8D-A4F2-3B621F61CC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D62CEBE-AC1B-4A8D-A4F2-3B621F61CC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D62CEBE-AC1B-4A8D-A4F2-3B621F61CC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FEF6FB6-71A4-47DC-A1F4-50144B3DE978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEF6FB6-71A4-47DC-A1F4-50144B3DE978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEF6FB6-71A4-47DC-A1F4-50144B3DE978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEF6FB6-71A4-47DC-A1F4-50144B3DE978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB6BDAB-BB66-4B5D-A192-7CF684932195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB6BDAB-BB66-4B5D-A192-7CF684932195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB6BDAB-BB66-4B5D-A192-7CF684932195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB6BDAB-BB66-4B5D-A192-7CF684932195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC8745D-F736-47D7-B20C-F143C199308A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC8745D-F736-47D7-B20C-F143C199308A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC8745D-F736-47D7-B20C-F143C199308A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC8745D-F736-47D7-B20C-F143C199308A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DD80F3-9F16-4EF2-9DC0-E3D24707F933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DD80F3-9F16-4EF2-9DC0-E3D24707F933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DD80F3-9F16-4EF2-9DC0-E3D24707F933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DD80F3-9F16-4EF2-9DC0-E3D24707F933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431DFD72-81D3-4487-9156-C9FC1CC333AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431DFD72-81D3-4487-9156-C9FC1CC333AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431DFD72-81D3-4487-9156-C9FC1CC333AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431DFD72-81D3-4487-9156-C9FC1CC333AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -852,6 +884,11 @@ Global
 		{B248A14F-E8FE-4BC9-9A55-8652452FE521} = {817E2C76-58C6-4888-AB82-F685FABFF38E}
 		{42FF4BEF-BD6E-471E-861C-0113D3ACEB8B} = {817E2C76-58C6-4888-AB82-F685FABFF38E}
 		{5D62CEBE-AC1B-4A8D-A4F2-3B621F61CC4A} = {817E2C76-58C6-4888-AB82-F685FABFF38E}
+		{0FEF6FB6-71A4-47DC-A1F4-50144B3DE978} = {1AACC8C9-4631-45CB-9E1F-F5B0AB4723CB}
+		{7BB6BDAB-BB66-4B5D-A192-7CF684932195} = {1AACC8C9-4631-45CB-9E1F-F5B0AB4723CB}
+		{6AC8745D-F736-47D7-B20C-F143C199308A} = {1AACC8C9-4631-45CB-9E1F-F5B0AB4723CB}
+		{32DD80F3-9F16-4EF2-9DC0-E3D24707F933} = {1AACC8C9-4631-45CB-9E1F-F5B0AB4723CB}
+		{431DFD72-81D3-4487-9156-C9FC1CC333AE} = {1AACC8C9-4631-45CB-9E1F-F5B0AB4723CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EA9153-0B85-4A4A-AB5B-52B9321DDF84}
