@@ -11,6 +11,7 @@ namespace SpecialNumbers
             for (int i = 1; i <= n; i++)
             {
                 int digitSum = CalculateSumOfDigits(i);
+
                 bool isSpecial = digitSum == 5 || digitSum == 7 || digitSum == 11;
                 Console.WriteLine($"{i} -> {isSpecial}");
             }
@@ -27,5 +28,6 @@ namespace SpecialNumbers
 
             return digitSum;
         }
+
     }
 }
