@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integers", "Data types\Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexadecimalVariable", "Data types\HexadecimalVariable\HexadecimalVariable.csproj", "{3E1A2803-CF10-4151-BDA2-49F00D15F72D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapValues", "Data types\SwapValues\SwapValues.csproj", "{7DB8F2CE-A8EA-4E42-A69F-FE19A556DFB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{3E1A2803-CF10-4151-BDA2-49F00D15F72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E1A2803-CF10-4151-BDA2-49F00D15F72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E1A2803-CF10-4151-BDA2-49F00D15F72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB8F2CE-A8EA-4E42-A69F-FE19A556DFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB8F2CE-A8EA-4E42-A69F-FE19A556DFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB8F2CE-A8EA-4E42-A69F-FE19A556DFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB8F2CE-A8EA-4E42-A69F-FE19A556DFB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{6ECE5138-9213-4878-9A1A-7A306AA75732} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{33FC296C-640C-457B-AE00-1A4BD777FED0} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{3E1A2803-CF10-4151-BDA2-49F00D15F72D} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{7DB8F2CE-A8EA-4E42-A69F-FE19A556DFB0} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
