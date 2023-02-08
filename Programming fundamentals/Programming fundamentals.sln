@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealNumbers", "Data types\R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleArea", "Data types\CircleArea\CircleArea.csproj", "{874353AD-7964-41EC-B126-25056DAD6873}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccurateDecimalSum", "Data types\AccurateDecimalSum\AccurateDecimalSum.csproj", "{8701B04E-E2C6-4E01-A154-8DC070FE6B8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{874353AD-7964-41EC-B126-25056DAD6873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{874353AD-7964-41EC-B126-25056DAD6873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{874353AD-7964-41EC-B126-25056DAD6873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8701B04E-E2C6-4E01-A154-8DC070FE6B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8701B04E-E2C6-4E01-A154-8DC070FE6B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8701B04E-E2C6-4E01-A154-8DC070FE6B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8701B04E-E2C6-4E01-A154-8DC070FE6B8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +120,7 @@ Global
 		{825BF822-1D40-4738-B451-2F7E7BFDCFB4} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{C918B640-2568-4B4C-B24E-CB90D9E419AD} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{874353AD-7964-41EC-B126-25056DAD6873} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{8701B04E-E2C6-4E01-A154-8DC070FE6B8A} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
