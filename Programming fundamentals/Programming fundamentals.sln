@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanVariable", "Data typ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrippleLetters", "Data types\TrippleLetters\TrippleLetters.csproj", "{7511088E-B451-4684-A5F5-A55643F559FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Data types\Greeting\Greeting.csproj", "{16FD0D69-CD1B-4703-9CFD-3933972C5736}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{7511088E-B451-4684-A5F5-A55643F559FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7511088E-B451-4684-A5F5-A55643F559FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7511088E-B451-4684-A5F5-A55643F559FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FD0D69-CD1B-4703-9CFD-3933972C5736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FD0D69-CD1B-4703-9CFD-3933972C5736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FD0D69-CD1B-4703-9CFD-3933972C5736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FD0D69-CD1B-4703-9CFD-3933972C5736}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{FA06FCC0-3102-457E-A487-24F6B997FCC6} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{61411515-8767-4BB3-A043-233DEC1923D3} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{7511088E-B451-4684-A5F5-A55643F559FF} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{16FD0D69-CD1B-4703-9CFD-3933972C5736} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
