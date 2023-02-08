@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatchTheThief", "Data types
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenturiesToMinutes", "Data types\CenturiesToMinutes\CenturiesToMinutes.csproj", "{6ECE5138-9213-4878-9A1A-7A306AA75732}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integers", "Data types\Integers\Integers.csproj", "{33FC296C-640C-457B-AE00-1A4BD777FED0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{6ECE5138-9213-4878-9A1A-7A306AA75732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ECE5138-9213-4878-9A1A-7A306AA75732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ECE5138-9213-4878-9A1A-7A306AA75732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FC296C-640C-457B-AE00-1A4BD777FED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FC296C-640C-457B-AE00-1A4BD777FED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FC296C-640C-457B-AE00-1A4BD777FED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FC296C-640C-457B-AE00-1A4BD777FED0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{8D2F2A84-404A-4941-93BB-15E7FE08A314} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{974C2B83-3352-4EE6-98EA-06E3A5C80B6C} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{6ECE5138-9213-4878-9A1A-7A306AA75732} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{33FC296C-640C-457B-AE00-1A4BD777FED0} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
