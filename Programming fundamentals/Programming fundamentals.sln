@@ -19,23 +19,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PyramidVolume", "Data types
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatchTheThief", "Data types\CatchTheThief\CatchTheThief.csproj", "{974C2B83-3352-4EE6-98EA-06E3A5C80B6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenturiesToMinutes", "Data types\CenturiesToMinutes\CenturiesToMinutes.csproj", "{6ECE5138-9213-4878-9A1A-7A306AA75732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CenturiesToMinutes", "Data types\CenturiesToMinutes\CenturiesToMinutes.csproj", "{6ECE5138-9213-4878-9A1A-7A306AA75732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integers", "Data types\Integers\Integers.csproj", "{33FC296C-640C-457B-AE00-1A4BD777FED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integers", "Data types\Integers\Integers.csproj", "{33FC296C-640C-457B-AE00-1A4BD777FED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexadecimalVariable", "Data types\HexadecimalVariable\HexadecimalVariable.csproj", "{3E1A2803-CF10-4151-BDA2-49F00D15F72D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexadecimalVariable", "Data types\HexadecimalVariable\HexadecimalVariable.csproj", "{3E1A2803-CF10-4151-BDA2-49F00D15F72D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapValues", "Data types\SwapValues\SwapValues.csproj", "{7DB8F2CE-A8EA-4E42-A69F-FE19A556DFB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwapValues", "Data types\SwapValues\SwapValues.csproj", "{7DB8F2CE-A8EA-4E42-A69F-FE19A556DFB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToHexadecimalAndBinary", "Data types\ConvertToHexadecimalAndBinary\ConvertToHexadecimalAndBinary.csproj", "{825BF822-1D40-4738-B451-2F7E7BFDCFB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertToHexadecimalAndBinary", "Data types\ConvertToHexadecimalAndBinary\ConvertToHexadecimalAndBinary.csproj", "{825BF822-1D40-4738-B451-2F7E7BFDCFB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealNumbers", "Data types\RealNumbers\RealNumbers.csproj", "{C918B640-2568-4B4C-B24E-CB90D9E419AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealNumbers", "Data types\RealNumbers\RealNumbers.csproj", "{C918B640-2568-4B4C-B24E-CB90D9E419AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleArea", "Data types\CircleArea\CircleArea.csproj", "{874353AD-7964-41EC-B126-25056DAD6873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleArea", "Data types\CircleArea\CircleArea.csproj", "{874353AD-7964-41EC-B126-25056DAD6873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccurateDecimalSum", "Data types\AccurateDecimalSum\AccurateDecimalSum.csproj", "{8701B04E-E2C6-4E01-A154-8DC070FE6B8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccurateDecimalSum", "Data types\AccurateDecimalSum\AccurateDecimalSum.csproj", "{8701B04E-E2C6-4E01-A154-8DC070FE6B8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle", "Data types\Rectangle\Rectangle.csproj", "{245CDDFE-7A44-4B24-8214-8A15A3F95CB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rectangle", "Data types\Rectangle\Rectangle.csproj", "{245CDDFE-7A44-4B24-8214-8A15A3F95CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevator", "Data types\Elevator\Elevator.csproj", "{FA06FCC0-3102-457E-A487-24F6B997FCC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanVariable", "Data types\BooleanVariable\BooleanVariable.csproj", "{61411515-8767-4BB3-A043-233DEC1923D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrippleLetters", "Data types\TrippleLetters\TrippleLetters.csproj", "{7511088E-B451-4684-A5F5-A55643F559FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +113,18 @@ Global
 		{245CDDFE-7A44-4B24-8214-8A15A3F95CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{245CDDFE-7A44-4B24-8214-8A15A3F95CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{245CDDFE-7A44-4B24-8214-8A15A3F95CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA06FCC0-3102-457E-A487-24F6B997FCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA06FCC0-3102-457E-A487-24F6B997FCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA06FCC0-3102-457E-A487-24F6B997FCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA06FCC0-3102-457E-A487-24F6B997FCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61411515-8767-4BB3-A043-233DEC1923D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61411515-8767-4BB3-A043-233DEC1923D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61411515-8767-4BB3-A043-233DEC1923D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61411515-8767-4BB3-A043-233DEC1923D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7511088E-B451-4684-A5F5-A55643F559FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7511088E-B451-4684-A5F5-A55643F559FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7511088E-B451-4684-A5F5-A55643F559FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7511088E-B451-4684-A5F5-A55643F559FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +146,9 @@ Global
 		{874353AD-7964-41EC-B126-25056DAD6873} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{8701B04E-E2C6-4E01-A154-8DC070FE6B8A} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{245CDDFE-7A44-4B24-8214-8A15A3F95CB8} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{FA06FCC0-3102-457E-A487-24F6B997FCC6} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{61411515-8767-4BB3-A043-233DEC1923D3} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{7511088E-B451-4684-A5F5-A55643F559FF} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
