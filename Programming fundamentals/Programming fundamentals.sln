@@ -65,6 +65,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentenceTheThief", "Data ty
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingWords", "Data types\CreatingWords\CreatingWords.csproj", "{E3006E0F-8D7F-4CF1-8970-3AE2DB827752}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfCharacters", "Data types\SumOfCharacters\SumOfCharacters.csproj", "{D03FF529-8C53-46D3-A6FB-94C8CE19A748}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,10 @@ Global
 		{E3006E0F-8D7F-4CF1-8970-3AE2DB827752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3006E0F-8D7F-4CF1-8970-3AE2DB827752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3006E0F-8D7F-4CF1-8970-3AE2DB827752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03FF529-8C53-46D3-A6FB-94C8CE19A748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03FF529-8C53-46D3-A6FB-94C8CE19A748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03FF529-8C53-46D3-A6FB-94C8CE19A748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03FF529-8C53-46D3-A6FB-94C8CE19A748}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,6 +232,7 @@ Global
 		{1AB175A5-65AC-4CEF-8BDB-63739C2EFD9D} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{BA75D4D6-3842-46FE-AEEC-DAD81F77F0C3} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{E3006E0F-8D7F-4CF1-8970-3AE2DB827752} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{D03FF529-8C53-46D3-A6FB-94C8CE19A748} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
