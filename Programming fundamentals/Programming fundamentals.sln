@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberCheck", "Data types\N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast", "Data types\WeatherForecast\WeatherForecast.csproj", "{4A6C0080-3F6C-4976-B471-A502F6CEEE9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenceTheThief", "SentenceTheThief\SentenceTheThief.csproj", "{74C8DB01-CFAE-470E-8A49-5CEEE4044724}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -173,6 +175,10 @@ Global
 		{4A6C0080-3F6C-4976-B471-A502F6CEEE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6C0080-3F6C-4976-B471-A502F6CEEE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6C0080-3F6C-4976-B471-A502F6CEEE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C8DB01-CFAE-470E-8A49-5CEEE4044724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C8DB01-CFAE-470E-8A49-5CEEE4044724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C8DB01-CFAE-470E-8A49-5CEEE4044724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C8DB01-CFAE-470E-8A49-5CEEE4044724}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -205,6 +211,7 @@ Global
 		{89BC4B34-05F1-41E7-A184-882599DEE448} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{9BA114F0-EC17-4F24-B81B-D8E524A4E962} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{4A6C0080-3F6C-4976-B471-A502F6CEEE9F} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{74C8DB01-CFAE-470E-8A49-5CEEE4044724} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
