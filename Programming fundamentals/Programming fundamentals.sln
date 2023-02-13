@@ -53,21 +53,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReversedCharacters", "Data 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeData", "Data types\EmployeeData\EmployeeData.csproj", "{C575DC27-E2E2-4D29-BE5F-0E51300B2DF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeRanges", "Data types\TypeRanges\TypeRanges.csproj", "{89BC4B34-05F1-41E7-A184-882599DEE448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeRanges", "Data types\TypeRanges\TypeRanges.csproj", "{89BC4B34-05F1-41E7-A184-882599DEE448}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberCheck", "Data types\NumberCheck\NumberCheck.csproj", "{9BA114F0-EC17-4F24-B81B-D8E524A4E962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberCheck", "Data types\NumberCheck\NumberCheck.csproj", "{9BA114F0-EC17-4F24-B81B-D8E524A4E962}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast", "Data types\WeatherForecast\WeatherForecast.csproj", "{4A6C0080-3F6C-4976-B471-A502F6CEEE9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecast", "Data types\WeatherForecast\WeatherForecast.csproj", "{4A6C0080-3F6C-4976-B471-A502F6CEEE9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Data types\Builder\Builder.csproj", "{1AB175A5-65AC-4CEF-8BDB-63739C2EFD9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Data types\Builder\Builder.csproj", "{1AB175A5-65AC-4CEF-8BDB-63739C2EFD9D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentenceTheThief", "Data types\SentenceTheThief\SentenceTheThief.csproj", "{BA75D4D6-3842-46FE-AEEC-DAD81F77F0C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingWords", "Data types\CreatingWords\CreatingWords.csproj", "{E3006E0F-8D7F-4CF1-8970-3AE2DB827752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatingWords", "Data types\CreatingWords\CreatingWords.csproj", "{E3006E0F-8D7F-4CF1-8970-3AE2DB827752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfCharacters", "Data types\SumOfCharacters\SumOfCharacters.csproj", "{D03FF529-8C53-46D3-A6FB-94C8CE19A748}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfCharacters", "Data types\SumOfCharacters\SumOfCharacters.csproj", "{D03FF529-8C53-46D3-A6FB-94C8CE19A748}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringConcatenation", "Data types\StringConcatenation\StringConcatenation.csproj", "{7318B70E-170E-4FA6-8B92-8F4D3F1BB7B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringConcatenation", "Data types\StringConcatenation\StringConcatenation.csproj", "{7318B70E-170E-4FA6-8B92-8F4D3F1BB7B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{9511697E-47E8-46BF-9E52-D1D1EAD9AE72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayStatistics", "Arrays\ArrayStatistics\ArrayStatistics.csproj", "{184D066E-7266-4BF8-828B-A22C03E21B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateAndSum", "Arrays\RotateAndSum\RotateAndSum.csproj", "{42A8001A-7914-4D96-80E1-4A0DB0DAE5D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationsOverArray", "Arrays\OperationsOverArray\OperationsOverArray.csproj", "{A7EAB836-E80B-4C52-99F9-ED8D2129412E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -203,6 +211,18 @@ Global
 		{7318B70E-170E-4FA6-8B92-8F4D3F1BB7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7318B70E-170E-4FA6-8B92-8F4D3F1BB7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7318B70E-170E-4FA6-8B92-8F4D3F1BB7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184D066E-7266-4BF8-828B-A22C03E21B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184D066E-7266-4BF8-828B-A22C03E21B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184D066E-7266-4BF8-828B-A22C03E21B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184D066E-7266-4BF8-828B-A22C03E21B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A8001A-7914-4D96-80E1-4A0DB0DAE5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A8001A-7914-4D96-80E1-4A0DB0DAE5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A8001A-7914-4D96-80E1-4A0DB0DAE5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A8001A-7914-4D96-80E1-4A0DB0DAE5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EAB836-E80B-4C52-99F9-ED8D2129412E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EAB836-E80B-4C52-99F9-ED8D2129412E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EAB836-E80B-4C52-99F9-ED8D2129412E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EAB836-E80B-4C52-99F9-ED8D2129412E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -240,6 +260,9 @@ Global
 		{E3006E0F-8D7F-4CF1-8970-3AE2DB827752} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{D03FF529-8C53-46D3-A6FB-94C8CE19A748} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{7318B70E-170E-4FA6-8B92-8F4D3F1BB7B6} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{184D066E-7266-4BF8-828B-A22C03E21B8C} = {9511697E-47E8-46BF-9E52-D1D1EAD9AE72}
+		{42A8001A-7914-4D96-80E1-4A0DB0DAE5D3} = {9511697E-47E8-46BF-9E52-D1D1EAD9AE72}
+		{A7EAB836-E80B-4C52-99F9-ED8D2129412E} = {9511697E-47E8-46BF-9E52-D1D1EAD9AE72}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
