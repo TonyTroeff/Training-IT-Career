@@ -1,4 +1,8 @@
-﻿namespace MergeLists
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace MergeLists
 {
     internal class Program
     {

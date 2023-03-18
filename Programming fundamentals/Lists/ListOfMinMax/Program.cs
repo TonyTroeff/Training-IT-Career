@@ -1,4 +1,8 @@
-﻿namespace ListOfMinMax
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace ListOfMinMax
 {
     public class Program
     {
