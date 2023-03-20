@@ -133,19 +133,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcatBenchmark", "String p
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionaries", "Dictionaries", "{2CE80B15-0BFF-49E2-84C3-AE9BCC0BF543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSetPlayground", "Dictionaries\HashSetPlayground\HashSetPlayground.csproj", "{2178DCB2-9150-494A-AC1C-FB14C4A55FD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSetPlayground", "Dictionaries\HashSetPlayground\HashSetPlayground.csproj", "{2178DCB2-9150-494A-AC1C-FB14C4A55FD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryPlayground", "Dictionaries\DictionaryPlayground\DictionaryPlayground.csproj", "{96E79CCD-06AD-42D1-BB34-EC16A3A7833C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryPlayground", "Dictionaries\DictionaryPlayground\DictionaryPlayground.csproj", "{96E79CCD-06AD-42D1-BB34-EC16A3A7833C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOccurrences", "Dictionaries\OddOccurrences\OddOccurrences.csproj", "{5B82B894-ED5A-4AF2-A1E3-29816EAB487D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOccurrences", "Dictionaries\OddOccurrences\OddOccurrences.csproj", "{5B82B894-ED5A-4AF2-A1E3-29816EAB487D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook", "Dictionaries\PhoneBook\PhoneBook.csproj", "{7D5C3E55-D71A-4673-AF34-03A011D99D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook", "Dictionaries\PhoneBook\PhoneBook.csproj", "{7D5C3E55-D71A-4673-AF34-03A011D99D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinersTask", "Dictionaries\MinersTask\MinersTask.csproj", "{E7AF03D3-1974-45AE-A9F3-3437A2C5B34D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinersTask", "Dictionaries\MinersTask\MinersTask.csproj", "{E7AF03D3-1974-45AE-A9F3-3437A2C5B34D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket", "Dictionaries\Supermarket\Supermarket.csproj", "{49EC8A1B-1AE9-498B-B2DB-7159309357D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supermarket", "Dictionaries\Supermarket\Supermarket.csproj", "{49EC8A1B-1AE9-498B-B2DB-7159309357D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqPlayground", "LinqPlayground\LinqPlayground.csproj", "{E16D4C69-67DE-4B60-AA5F-944277E94A4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqPlayground", "LinqPlayground\LinqPlayground.csproj", "{E16D4C69-67DE-4B60-AA5F-944277E94A4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multidimensional arrays", "Multidimensional arrays", "{59FC76FB-CA88-4C2A-8C23-AE98ED9FACB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultidimensionalArraysPlayground", "Multidimensional arrays\MultidimensionalArraysPlayground\MultidimensionalArraysPlayground.csproj", "{B4677885-37D6-487D-AF44-908B45180600}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputOutputMatrix", "Multidimensional arrays\InputOutputMatrix\InputOutputMatrix.csproj", "{434AF461-50EE-423C-9580-DD6558DCBE6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AverageByRows", "Multidimensional arrays\AverageByRows\AverageByRows.csproj", "{58474463-BF8B-4768-A69C-F566E89FA3E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumByColumns", "Multidimensional arrays\MinimumByColumns\MinimumByColumns.csproj", "{4FF8701B-612D-4698-ABA7-8544E266812D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputOutputJaggedArray", "Multidimensional arrays\InputOutputJaggedArray\InputOutputJaggedArray.csproj", "{F4243620-F4D9-45DA-82FD-E51965AB7EDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxSubMatrix", "Multidimensional arrays\MaxSubMatrix\MaxSubMatrix.csproj", "{D1AD631F-AA88-4191-A4AA-04FD37B62A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "Multidimensional arrays\PascalTriangle\PascalTriangle.csproj", "{EB089F76-F746-4CB6-9513-C93A5CD5E0EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +433,34 @@ Global
 		{E16D4C69-67DE-4B60-AA5F-944277E94A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E16D4C69-67DE-4B60-AA5F-944277E94A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E16D4C69-67DE-4B60-AA5F-944277E94A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4677885-37D6-487D-AF44-908B45180600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4677885-37D6-487D-AF44-908B45180600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4677885-37D6-487D-AF44-908B45180600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4677885-37D6-487D-AF44-908B45180600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434AF461-50EE-423C-9580-DD6558DCBE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434AF461-50EE-423C-9580-DD6558DCBE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434AF461-50EE-423C-9580-DD6558DCBE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434AF461-50EE-423C-9580-DD6558DCBE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58474463-BF8B-4768-A69C-F566E89FA3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58474463-BF8B-4768-A69C-F566E89FA3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58474463-BF8B-4768-A69C-F566E89FA3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58474463-BF8B-4768-A69C-F566E89FA3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF8701B-612D-4698-ABA7-8544E266812D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF8701B-612D-4698-ABA7-8544E266812D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF8701B-612D-4698-ABA7-8544E266812D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF8701B-612D-4698-ABA7-8544E266812D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4243620-F4D9-45DA-82FD-E51965AB7EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4243620-F4D9-45DA-82FD-E51965AB7EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4243620-F4D9-45DA-82FD-E51965AB7EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4243620-F4D9-45DA-82FD-E51965AB7EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AD631F-AA88-4191-A4AA-04FD37B62A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AD631F-AA88-4191-A4AA-04FD37B62A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AD631F-AA88-4191-A4AA-04FD37B62A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AD631F-AA88-4191-A4AA-04FD37B62A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB089F76-F746-4CB6-9513-C93A5CD5E0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB089F76-F746-4CB6-9513-C93A5CD5E0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB089F76-F746-4CB6-9513-C93A5CD5E0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB089F76-F746-4CB6-9513-C93A5CD5E0EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -487,6 +531,13 @@ Global
 		{7D5C3E55-D71A-4673-AF34-03A011D99D92} = {2CE80B15-0BFF-49E2-84C3-AE9BCC0BF543}
 		{E7AF03D3-1974-45AE-A9F3-3437A2C5B34D} = {2CE80B15-0BFF-49E2-84C3-AE9BCC0BF543}
 		{49EC8A1B-1AE9-498B-B2DB-7159309357D4} = {2CE80B15-0BFF-49E2-84C3-AE9BCC0BF543}
+		{B4677885-37D6-487D-AF44-908B45180600} = {59FC76FB-CA88-4C2A-8C23-AE98ED9FACB5}
+		{434AF461-50EE-423C-9580-DD6558DCBE6C} = {59FC76FB-CA88-4C2A-8C23-AE98ED9FACB5}
+		{58474463-BF8B-4768-A69C-F566E89FA3E6} = {59FC76FB-CA88-4C2A-8C23-AE98ED9FACB5}
+		{4FF8701B-612D-4698-ABA7-8544E266812D} = {59FC76FB-CA88-4C2A-8C23-AE98ED9FACB5}
+		{F4243620-F4D9-45DA-82FD-E51965AB7EDE} = {59FC76FB-CA88-4C2A-8C23-AE98ED9FACB5}
+		{D1AD631F-AA88-4191-A4AA-04FD37B62A04} = {59FC76FB-CA88-4C2A-8C23-AE98ED9FACB5}
+		{EB089F76-F746-4CB6-9513-C93A5CD5E0EE} = {59FC76FB-CA88-4C2A-8C23-AE98ED9FACB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
