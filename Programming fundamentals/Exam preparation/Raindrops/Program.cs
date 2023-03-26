@@ -1,4 +1,7 @@
-﻿namespace Raindrops
+﻿using System;
+using System.Linq;
+
+namespace Raindrops
 {
     internal class Program
     {

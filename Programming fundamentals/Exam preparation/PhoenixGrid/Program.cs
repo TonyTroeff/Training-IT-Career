@@ -1,4 +1,6 @@
-﻿namespace PhoenixGrid
+﻿using System;
+
+namespace PhoenixGrid
 {
     internal class Program
     {

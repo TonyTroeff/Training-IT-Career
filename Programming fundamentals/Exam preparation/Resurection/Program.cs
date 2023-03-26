@@ -1,4 +1,6 @@
-﻿namespace Resurection
+﻿using System;
+
+namespace Resurection
 {
     internal class Program
     {
