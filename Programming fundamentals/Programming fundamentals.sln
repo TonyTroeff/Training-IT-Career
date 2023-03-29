@@ -179,13 +179,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Raindrops", "Exam preparati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rainer", "Exam preparation\Rainer\Rainer.csproj", "{C654193E-73C9-4749-AA07-0D82E78A71F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beers", "Data types\Beers\Beers.csproj", "{518E5B07-901A-4777-8B47-E96595E82973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beers", "Data types\Beers\Beers.csproj", "{518E5B07-901A-4777-8B47-E96595E82973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageDecryption", "Data types\MessageDecryption\MessageDecryption.csproj", "{6B3F1BA6-E38F-43FE-A9AA-A0FB6296EEF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageDecryption", "Data types\MessageDecryption\MessageDecryption.csproj", "{6B3F1BA6-E38F-43FE-A9AA-A0FB6296EEF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoatsSimulator", "Data types\BoatsSimulator\BoatsSimulator.csproj", "{6D6A6661-39A5-4E98-9AE5-E86F67F202A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoatsSimulator", "Data types\BoatsSimulator\BoatsSimulator.csproj", "{6D6A6661-39A5-4E98-9AE5-E86F67F202A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopulationCounting", "Dictionaries\PopulationCounting\PopulationCounting.csproj", "{B3F0B775-DA1A-402A-8AE5-A2261C3E1274}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PopulationCounting", "Dictionaries\PopulationCounting\PopulationCounting.csproj", "{B3F0B775-DA1A-402A-8AE5-A2261C3E1274}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CenturiesToNanoseconds", "Data types\CenturiesToNanoseconds\CenturiesToNanoseconds.csproj", "{26A28E1D-E66D-4268-A100-F970555DB9EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VowelOrDigit", "Data types\VowelOrDigit\VowelOrDigit.csproj", "{E6087A2D-2BE0-401B-8A8E-195306F64C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimalityCheckRefactoring", "Data types\PrimalityCheckRefactoring\PrimalityCheckRefactoring.csproj", "{8B9B98DF-15ED-43E8-9EC4-6123E23DE2D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealNumbersComparison", "Data types\RealNumbersComparison\RealNumbersComparison.csproj", "{02CB8719-DCE1-4E9F-9CAD-985234248BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsciiTableSlice", "Data types\AsciiTableSlice\AsciiTableSlice.csproj", "{1811E1F9-9122-4670-9533-B6C5F7A1C53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitNumber", "Data types\FitNumber\FitNumber.csproj", "{2C1416B2-6FF3-4E82-81E4-C4D60187F644}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -529,6 +541,30 @@ Global
 		{B3F0B775-DA1A-402A-8AE5-A2261C3E1274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3F0B775-DA1A-402A-8AE5-A2261C3E1274}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3F0B775-DA1A-402A-8AE5-A2261C3E1274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A28E1D-E66D-4268-A100-F970555DB9EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A28E1D-E66D-4268-A100-F970555DB9EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A28E1D-E66D-4268-A100-F970555DB9EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A28E1D-E66D-4268-A100-F970555DB9EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6087A2D-2BE0-401B-8A8E-195306F64C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6087A2D-2BE0-401B-8A8E-195306F64C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6087A2D-2BE0-401B-8A8E-195306F64C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6087A2D-2BE0-401B-8A8E-195306F64C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9B98DF-15ED-43E8-9EC4-6123E23DE2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9B98DF-15ED-43E8-9EC4-6123E23DE2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9B98DF-15ED-43E8-9EC4-6123E23DE2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9B98DF-15ED-43E8-9EC4-6123E23DE2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CB8719-DCE1-4E9F-9CAD-985234248BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CB8719-DCE1-4E9F-9CAD-985234248BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CB8719-DCE1-4E9F-9CAD-985234248BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CB8719-DCE1-4E9F-9CAD-985234248BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1811E1F9-9122-4670-9533-B6C5F7A1C53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1811E1F9-9122-4670-9533-B6C5F7A1C53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1811E1F9-9122-4670-9533-B6C5F7A1C53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1811E1F9-9122-4670-9533-B6C5F7A1C53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C1416B2-6FF3-4E82-81E4-C4D60187F644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1416B2-6FF3-4E82-81E4-C4D60187F644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1416B2-6FF3-4E82-81E4-C4D60187F644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1416B2-6FF3-4E82-81E4-C4D60187F644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -617,6 +653,12 @@ Global
 		{6B3F1BA6-E38F-43FE-A9AA-A0FB6296EEF6} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{6D6A6661-39A5-4E98-9AE5-E86F67F202A4} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 		{B3F0B775-DA1A-402A-8AE5-A2261C3E1274} = {2CE80B15-0BFF-49E2-84C3-AE9BCC0BF543}
+		{26A28E1D-E66D-4268-A100-F970555DB9EC} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{E6087A2D-2BE0-401B-8A8E-195306F64C04} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{8B9B98DF-15ED-43E8-9EC4-6123E23DE2D0} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{02CB8719-DCE1-4E9F-9CAD-985234248BE5} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{1811E1F9-9122-4670-9533-B6C5F7A1C53E} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
+		{2C1416B2-6FF3-4E82-81E4-C4D60187F644} = {5C58D9F3-F4C3-47F3-AC82-0746A2FAB64E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
