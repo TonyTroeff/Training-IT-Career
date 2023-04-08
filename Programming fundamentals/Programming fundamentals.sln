@@ -191,23 +191,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CenturiesToNanoseconds", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VowelOrDigit", "Data types\VowelOrDigit\VowelOrDigit.csproj", "{E6087A2D-2BE0-401B-8A8E-195306F64C04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimalityCheckRefactoring", "Data types\PrimalityCheckRefactoring\PrimalityCheckRefactoring.csproj", "{8B9B98DF-15ED-43E8-9EC4-6123E23DE2D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimalityCheckRefactoring", "Data types\PrimalityCheckRefactoring\PrimalityCheckRefactoring.csproj", "{8B9B98DF-15ED-43E8-9EC4-6123E23DE2D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealNumbersComparison", "Data types\RealNumbersComparison\RealNumbersComparison.csproj", "{02CB8719-DCE1-4E9F-9CAD-985234248BE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealNumbersComparison", "Data types\RealNumbersComparison\RealNumbersComparison.csproj", "{02CB8719-DCE1-4E9F-9CAD-985234248BE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsciiTableSlice", "Data types\AsciiTableSlice\AsciiTableSlice.csproj", "{1811E1F9-9122-4670-9533-B6C5F7A1C53E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsciiTableSlice", "Data types\AsciiTableSlice\AsciiTableSlice.csproj", "{1811E1F9-9122-4670-9533-B6C5F7A1C53E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitNumber", "Data types\FitNumber\FitNumber.csproj", "{2C1416B2-6FF3-4E82-81E4-C4D60187F644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitNumber", "Data types\FitNumber\FitNumber.csproj", "{2C1416B2-6FF3-4E82-81E4-C4D60187F644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostCommonNumber", "Arrays\MostCommonNumber\MostCommonNumber.csproj", "{502C8291-6750-4DC0-AEE0-A3CB55A41BF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MostCommonNumber", "Arrays\MostCommonNumber\MostCommonNumber.csproj", "{502C8291-6750-4DC0-AEE0-A3CB55A41BF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertArrayToNumber", "Arrays\ConvertArrayToNumber\ConvertArrayToNumber.csproj", "{379638B1-8E5E-4F32-8231-40004A7D6FBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertArrayToNumber", "Arrays\ConvertArrayToNumber\ConvertArrayToNumber.csproj", "{379638B1-8E5E-4F32-8231-40004A7D6FBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "Arrays\ReverseArray\ReverseArray.csproj", "{B9202D33-7168-4CEF-B467-C8C33B669B90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "Arrays\ReverseArray\ReverseArray.csproj", "{B9202D33-7168-4CEF-B467-C8C33B669B90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfLastKNumbers", "Arrays\SumOfLastKNumbers\SumOfLastKNumbers.csproj", "{2BC3D3BC-EAB5-445F-9495-B38F67B63A1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfLastKNumbers", "Arrays\SumOfLastKNumbers\SumOfLastKNumbers.csproj", "{2BC3D3BC-EAB5-445F-9495-B38F67B63A1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractMiddleElements", "Arrays\ExtractMiddleElements\ExtractMiddleElements.csproj", "{63696D09-DC28-4B2B-A92C-D1B9BFC862EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractMiddleElements", "Arrays\ExtractMiddleElements\ExtractMiddleElements.csproj", "{63696D09-DC28-4B2B-A92C-D1B9BFC862EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder", "String processing\StringBuilder\StringBuilder.csproj", "{34C87D8C-5D08-493A-91DB-528B04B0549C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarateStrings", "String processing\KarateStrings\KarateStrings.csproj", "{BA7E92AA-386C-4A0A-AB8F-6B4B3F801C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmuneSystem", "Dictionaries\ImmuneSystem\ImmuneSystem.csproj", "{7C156C22-9673-42F9-94BD-9B669C8F80B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -595,6 +601,18 @@ Global
 		{63696D09-DC28-4B2B-A92C-D1B9BFC862EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63696D09-DC28-4B2B-A92C-D1B9BFC862EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63696D09-DC28-4B2B-A92C-D1B9BFC862EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C87D8C-5D08-493A-91DB-528B04B0549C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C87D8C-5D08-493A-91DB-528B04B0549C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C87D8C-5D08-493A-91DB-528B04B0549C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C87D8C-5D08-493A-91DB-528B04B0549C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7E92AA-386C-4A0A-AB8F-6B4B3F801C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7E92AA-386C-4A0A-AB8F-6B4B3F801C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7E92AA-386C-4A0A-AB8F-6B4B3F801C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7E92AA-386C-4A0A-AB8F-6B4B3F801C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C156C22-9673-42F9-94BD-9B669C8F80B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C156C22-9673-42F9-94BD-9B669C8F80B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C156C22-9673-42F9-94BD-9B669C8F80B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C156C22-9673-42F9-94BD-9B669C8F80B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -694,6 +712,9 @@ Global
 		{B9202D33-7168-4CEF-B467-C8C33B669B90} = {9511697E-47E8-46BF-9E52-D1D1EAD9AE72}
 		{2BC3D3BC-EAB5-445F-9495-B38F67B63A1B} = {9511697E-47E8-46BF-9E52-D1D1EAD9AE72}
 		{63696D09-DC28-4B2B-A92C-D1B9BFC862EF} = {9511697E-47E8-46BF-9E52-D1D1EAD9AE72}
+		{34C87D8C-5D08-493A-91DB-528B04B0549C} = {7C0EAAB1-1F2F-4E7D-B2BB-BD7F4035EDBA}
+		{BA7E92AA-386C-4A0A-AB8F-6B4B3F801C96} = {7C0EAAB1-1F2F-4E7D-B2BB-BD7F4035EDBA}
+		{7C156C22-9673-42F9-94BD-9B669C8F80B0} = {2CE80B15-0BFF-49E2-84C3-AE9BCC0BF543}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {758C6418-7AF5-4B94-B4F3-D75C7B94E413}
