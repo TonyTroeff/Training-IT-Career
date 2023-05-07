@@ -8,6 +8,7 @@ namespace Playground
         static void Main(string[] args)
         {
             List<int> list = new List<int>(capacity: 10);
+
             Dictionary<int, string> dictionary = new Dictionary<int, string>();
 
             list.Add(10);
