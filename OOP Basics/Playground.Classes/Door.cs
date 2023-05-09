@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Playground
+namespace Playground.Classes
 {
     public class Door
     {
