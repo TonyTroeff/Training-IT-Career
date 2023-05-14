@@ -21,19 +21,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarDealer", "Defining class
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Encapsulation", "Encapsulation", "{CF8F86BF-AE8A-4D71-A400-350ACF7B95A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.Classes", "Playground.Classes\Playground.Classes.csproj", "{CB8CDBBE-32DF-4EE2-8B9E-F0B2AD86607D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground.Classes", "Playground.Classes\Playground.Classes.csproj", "{CB8CDBBE-32DF-4EE2-8B9E-F0B2AD86607D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creatures", "Encapsulation\Creatures\Creatures.csproj", "{07A1C05D-D6A6-4C38-984F-8AE946062E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creatures", "Encapsulation\Creatures\Creatures.csproj", "{07A1C05D-D6A6-4C38-984F-8AE946062E2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortPeopleByNameAndAge", "Encapsulation\SortPeopleByNameAndAge\SortPeopleByNameAndAge.csproj", "{740E4345-468B-4B0D-A6E4-B093F8214D21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortPeopleByNameAndAge", "Encapsulation\SortPeopleByNameAndAge\SortPeopleByNameAndAge.csproj", "{740E4345-468B-4B0D-A6E4-B093F8214D21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangularParallelepiped", "Encapsulation\RectangularParallelepiped\RectangularParallelepiped.csproj", "{2B1EC33B-AF77-49EE-B385-BE6FC3C6CE93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectangularParallelepiped", "Encapsulation\RectangularParallelepiped\RectangularParallelepiped.csproj", "{2B1EC33B-AF77-49EE-B385-BE6FC3C6CE93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalFarm", "Encapsulation\AnimalFarm\AnimalFarm.csproj", "{5F941B1D-49CD-41E1-8CB3-B6B36760CF17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalFarm", "Encapsulation\AnimalFarm\AnimalFarm.csproj", "{5F941B1D-49CD-41E1-8CB3-B6B36760CF17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatingPerson", "Encapsulation\ValidatingPerson\ValidatingPerson.csproj", "{50162030-708A-40D6-88C7-549C98605375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidatingPerson", "Encapsulation\ValidatingPerson\ValidatingPerson.csproj", "{50162030-708A-40D6-88C7-549C98605375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market", "Encapsulation\Market\Market.csproj", "{31E5AA1D-76BB-45FB-AFFF-8D89394EC96C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market", "Encapsulation\Market\Market.csproj", "{31E5AA1D-76BB-45FB-AFFF-8D89394EC96C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static vs Non-static", "Static vs Non-static", "{11BFFB72-786F-4124-9BD5-A70A21D02241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticVsNonStatic", "Static vs Non-static\StaticVsNonStatic\StaticVsNonStatic.csproj", "{AD60A647-7C3A-49A9-814E-EABEA8BCCBD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstancesCounter", "Static vs Non-static\InstancesCounter\InstancesCounter.csproj", "{7C161D1C-AC8A-4454-A542-4D812AFE5D7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticGeometry", "Static vs Non-static\StaticGeometry\StaticGeometry.csproj", "{B23C439A-11FE-49E4-961B-EAC1C569825A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareRootMemoization", "Static vs Non-static\SquareRootMemoization\SquareRootMemoization.csproj", "{03E3AF12-131F-4AEC-B477-1BD17D75D9C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +107,22 @@ Global
 		{31E5AA1D-76BB-45FB-AFFF-8D89394EC96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31E5AA1D-76BB-45FB-AFFF-8D89394EC96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31E5AA1D-76BB-45FB-AFFF-8D89394EC96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD60A647-7C3A-49A9-814E-EABEA8BCCBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD60A647-7C3A-49A9-814E-EABEA8BCCBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD60A647-7C3A-49A9-814E-EABEA8BCCBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD60A647-7C3A-49A9-814E-EABEA8BCCBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C161D1C-AC8A-4454-A542-4D812AFE5D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C161D1C-AC8A-4454-A542-4D812AFE5D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C161D1C-AC8A-4454-A542-4D812AFE5D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C161D1C-AC8A-4454-A542-4D812AFE5D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23C439A-11FE-49E4-961B-EAC1C569825A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23C439A-11FE-49E4-961B-EAC1C569825A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23C439A-11FE-49E4-961B-EAC1C569825A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23C439A-11FE-49E4-961B-EAC1C569825A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E3AF12-131F-4AEC-B477-1BD17D75D9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E3AF12-131F-4AEC-B477-1BD17D75D9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E3AF12-131F-4AEC-B477-1BD17D75D9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E3AF12-131F-4AEC-B477-1BD17D75D9C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +140,10 @@ Global
 		{5F941B1D-49CD-41E1-8CB3-B6B36760CF17} = {CF8F86BF-AE8A-4D71-A400-350ACF7B95A6}
 		{50162030-708A-40D6-88C7-549C98605375} = {CF8F86BF-AE8A-4D71-A400-350ACF7B95A6}
 		{31E5AA1D-76BB-45FB-AFFF-8D89394EC96C} = {CF8F86BF-AE8A-4D71-A400-350ACF7B95A6}
+		{AD60A647-7C3A-49A9-814E-EABEA8BCCBD0} = {11BFFB72-786F-4124-9BD5-A70A21D02241}
+		{7C161D1C-AC8A-4454-A542-4D812AFE5D7B} = {11BFFB72-786F-4124-9BD5-A70A21D02241}
+		{B23C439A-11FE-49E4-961B-EAC1C569825A} = {11BFFB72-786F-4124-9BD5-A70A21D02241}
+		{03E3AF12-131F-4AEC-B477-1BD17D75D9C7} = {11BFFB72-786F-4124-9BD5-A70A21D02241}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFDD0F1B-1AFC-4E5D-89FE-AD10748DB3CA}
