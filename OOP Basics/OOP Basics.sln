@@ -37,13 +37,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market", "Encapsulation\Mar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static vs Non-static", "Static vs Non-static", "{11BFFB72-786F-4124-9BD5-A70A21D02241}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticVsNonStatic", "Static vs Non-static\StaticVsNonStatic\StaticVsNonStatic.csproj", "{AD60A647-7C3A-49A9-814E-EABEA8BCCBD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticVsNonStatic", "Static vs Non-static\StaticVsNonStatic\StaticVsNonStatic.csproj", "{AD60A647-7C3A-49A9-814E-EABEA8BCCBD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstancesCounter", "Static vs Non-static\InstancesCounter\InstancesCounter.csproj", "{7C161D1C-AC8A-4454-A542-4D812AFE5D7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstancesCounter", "Static vs Non-static\InstancesCounter\InstancesCounter.csproj", "{7C161D1C-AC8A-4454-A542-4D812AFE5D7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticGeometry", "Static vs Non-static\StaticGeometry\StaticGeometry.csproj", "{B23C439A-11FE-49E4-961B-EAC1C569825A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticGeometry", "Static vs Non-static\StaticGeometry\StaticGeometry.csproj", "{B23C439A-11FE-49E4-961B-EAC1C569825A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareRootMemoization", "Static vs Non-static\SquareRootMemoization\SquareRootMemoization.csproj", "{03E3AF12-131F-4AEC-B477-1BD17D75D9C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareRootMemoization", "Static vs Non-static\SquareRootMemoization\SquareRootMemoization.csproj", "{03E3AF12-131F-4AEC-B477-1BD17D75D9C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam preparation", "Exam preparation", "{C4CBA0CC-4C00-4FAF-9C21-87089EE03CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShop", "Exam preparation\FlowerShop\FlowerShop.csproj", "{E874DF8F-ECBB-4442-AA8B-645CCC65C844}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,10 @@ Global
 		{03E3AF12-131F-4AEC-B477-1BD17D75D9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03E3AF12-131F-4AEC-B477-1BD17D75D9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03E3AF12-131F-4AEC-B477-1BD17D75D9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E874DF8F-ECBB-4442-AA8B-645CCC65C844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E874DF8F-ECBB-4442-AA8B-645CCC65C844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E874DF8F-ECBB-4442-AA8B-645CCC65C844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E874DF8F-ECBB-4442-AA8B-645CCC65C844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +152,7 @@ Global
 		{7C161D1C-AC8A-4454-A542-4D812AFE5D7B} = {11BFFB72-786F-4124-9BD5-A70A21D02241}
 		{B23C439A-11FE-49E4-961B-EAC1C569825A} = {11BFFB72-786F-4124-9BD5-A70A21D02241}
 		{03E3AF12-131F-4AEC-B477-1BD17D75D9C7} = {11BFFB72-786F-4124-9BD5-A70A21D02241}
+		{E874DF8F-ECBB-4442-AA8B-645CCC65C844} = {C4CBA0CC-4C00-4FAF-9C21-87089EE03CB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFDD0F1B-1AFC-4E5D-89FE-AD10748DB3CA}
