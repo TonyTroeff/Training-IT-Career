@@ -20,7 +20,7 @@ namespace FlowerShop
             get => this._name;
             private set
             {
-                if (value is null || value.Length < 6) throw new ArgumentException("Invalid flower store name!");
+                if (value == null || value.Length < 6) throw new ArgumentException("Invalid flower store name!");
                 this._name = value;
             }
         }
