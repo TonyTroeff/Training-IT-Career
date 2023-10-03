@@ -27,5 +27,12 @@
                 Console.WriteLine("This is a string");
             }
         }
+
+        // How will this work if we cannot instantiate (directly) the interface???
+        public static void PrintOnConsole(IPrintable printable)
+        {
+            string printMessage = printable.Print();
+            Console.WriteLine(printMessage);
+        }
     }
 }

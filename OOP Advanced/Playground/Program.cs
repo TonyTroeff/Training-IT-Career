@@ -4,6 +4,16 @@
     {
         static void Main(string[] args)
         {
+            IPrintable document = new Document("test.docx");
+            Helpers.PrintOnConsole(document);
+
+            // We cannot use members defined at the "Document" type level
+            // because we are consuming the instance as an "IPrintable".
+            // Console.WriteLine(document.Name);
+
+            IPrintable image = new Image();
+            Helpers.PrintOnConsole(image);
+
             int[] array1 = ArrayCreator.CreateArray(10, 1);
             List<int>[] array2 = ArrayCreator.CreateArray<List<int>>(5);
 
