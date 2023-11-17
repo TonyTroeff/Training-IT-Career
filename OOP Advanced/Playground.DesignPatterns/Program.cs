@@ -23,9 +23,15 @@ namespace Playground.DesignPatterns
             IComponent component3 = new Component("#3");
             IComponent component4 = new ComponentAdapter(beverage);
 
+            IComponent componentAlpha = new Component("alpha");
+            ObservableComponentDecorator observableComponentAlpha = new ObservableComponentDecorator(componentAlpha);
+
+            observableComponentAlpha.SubscribeToChange((index) => Console.WriteLine($"Subscription was activated. Invocation index: {index}"));
+
             ComponentComposite root = new ComponentComposite("root");
             root.AddChild(component1);
             root.AddChild(component2);
+            root.AddChild(observableComponentAlpha);
 
             ComponentComposite secondLevel = new ComponentComposite("second_level_1");
 
@@ -35,6 +41,8 @@ namespace Playground.DesignPatterns
             secondLevel.AddChild(component4);
             secondLevel.AddChild(wrappedComponent);
             secondLevel.AddChild(component3);
+
+            secondLevel.AddChild(observableComponentAlpha);
 
             root.AddChild(secondLevel);
 
