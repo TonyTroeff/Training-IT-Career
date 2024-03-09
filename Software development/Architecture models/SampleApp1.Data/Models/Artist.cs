@@ -1,6 +1,6 @@
 ﻿namespace SampleApp1.Data.Models
 {
-    public class Artist
+    public class Artist : IIdentifiable
     {
         public Guid Id { get; set; }
         public string FirstName { get; set; } = string.Empty;

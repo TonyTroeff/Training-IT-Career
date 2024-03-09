@@ -12,7 +12,7 @@ namespace SampleApp1.Core.Services
         {
         }
 
-        public IEnumerable<SongGeneralInfoProjection> GetAllSongs()
+        public IEnumerable<SongGeneralInfoProjection> GetAll()
         {
             return this.Repository.GetMany(_ => true, s => new SongGeneralInfoProjection { Id = s.Id, Name = s.Name, ArtistNickname = s.Artist.Nickname });
         }

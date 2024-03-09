@@ -1,3 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using SampleApp1.Core.Interfaces.Services;
+using SampleApp1.Core.Projections.Genres;
+using SampleApp1.Core.Services;
+using SampleApp1.Data;
+using SampleApp1.Data.Models;
+using SampleApp1.Data.Repositories;
+using SampleApp1.Web.ViewModels.Genres;
+using System.Reflection;
+
 namespace SampleApp1.Web.MVC
 {
     public class Program
@@ -8,6 +19,10 @@ namespace SampleApp1.Web.MVC
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            RegisterDbContext(builder);
+            RegisterServices(builder);
+            RegisterAutoMapper(builder);
 
             var app = builder.Build();
 
@@ -26,11 +41,35 @@ namespace SampleApp1.Web.MVC
 
             app.UseAuthorization();
 
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.MapControllers();
 
             app.Run();
+        }
+
+        private static void RegisterDbContext(WebApplicationBuilder builder)
+        {
+            // TODO: Read from appsettings.json!
+            const string connectionString = "Server=localhost;Database=music;Uid=root;Pwd=root;";
+
+            builder.Services.AddDbContext<SampleDbContext>(options =>
+            {
+#if DEBUG
+                options.EnableSensitiveDataLogging(sensitiveDataLoggingEnabled: true);
+#endif
+
+                options.UseMySQL(connectionString);
+            });
+        }
+
+        private static void RegisterServices(WebApplicationBuilder builder)
+        {
+            builder.Services.AddScoped<IRepository<Genre>, Repository<Genre>>();
+            builder.Services.AddScoped<IGenreService, GenreService>();
+        }
+
+        private static void RegisterAutoMapper(WebApplicationBuilder builder)
+        {
+            builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }
     }
 }

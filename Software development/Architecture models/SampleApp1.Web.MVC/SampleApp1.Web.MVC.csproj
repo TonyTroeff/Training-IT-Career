@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SampleApp1.Core\SampleApp1.Core.csproj" />
     <ProjectReference Include="..\SampleApp1.Web.ViewModels\SampleApp1.Web.ViewModels.csproj" />
   </ItemGroup>

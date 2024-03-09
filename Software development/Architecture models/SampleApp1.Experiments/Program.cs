@@ -19,6 +19,12 @@ namespace SampleApp1.Experiments
             IRepository<Song> songRepository = new Repository<Song>(dbContext);
             ISongService songService = new SongService(songRepository);
 
+            IRepository<Genre> genreRepository = new Repository<Genre>(dbContext);
+            IGenreService genreService = new GenreService(genreRepository);
+
+            IRepository<Artist> artistRepository = new Repository<Artist>(dbContext);
+            IArtistService artistService = new ArtistService(artistRepository);
+
             bool continueProcessingInput = true;
             while (continueProcessingInput)
             {
@@ -27,10 +33,12 @@ namespace SampleApp1.Experiments
                 PrintMenu();
                 string input = Console.ReadLine().Trim();
 
-                if (input == "1") CreateSong(songService);
+                if (input == "1") CreateSong(songService, genreService);
                 else if (input == "2") GetAllSongs(songService);
-                else if (input == "3") CreateArtist(dbContext);
-                else if (input == "4") GetAllArtists(dbContext);
+                else if (input == "3") CreateArtist(artistService);
+                else if (input == "4") GetAllArtists(artistService);
+                else if (input == "5") CreateGenre(genreService);
+                else if (input == "6") GetAllGenres(genreService);
                 else if (input == "0") continueProcessingInput = false;
                 else Console.WriteLine("Invalid input!");
 
@@ -44,6 +52,8 @@ namespace SampleApp1.Experiments
             Console.WriteLine("2. Get all songs");
             Console.WriteLine("3. Create artist");
             Console.WriteLine("4. Get all artists with their songs");
+            Console.WriteLine("5. Create genre");
+            Console.WriteLine("6. Get all genres");
             Console.WriteLine("0. Exit");
         }
 
@@ -60,12 +70,13 @@ namespace SampleApp1.Experiments
 
             SampleDbContext dbContext = new SampleDbContext(optionsBuilder.Options);
             // dbContext.Database.EnsureDeleted();
-            dbContext.Database.EnsureCreated();
+            // dbContext.Database.EnsureCreated();
+            dbContext.Database.Migrate();
 
             return dbContext;
         }
 
-        private static void CreateSong(ISongService songService)
+        private static void CreateSong(ISongService songService, IGenreService genreService)
         {
             Console.Write("Name: ");
             string name = Console.ReadLine();
@@ -73,7 +84,18 @@ namespace SampleApp1.Experiments
             Console.Write("Artist ID: ");
             Guid artistId = Guid.Parse(Console.ReadLine());
 
-            Song songToCreate = new Song { Name = name, ArtistId = artistId };
+            Console.Write("Genre IDs (separated by ', '): ");
+            Guid[] genreIds = Console.ReadLine().Split(", ").Select(Guid.Parse).ToArray();
+
+            Genre[] genres = genreService.GetByIds(genreIds).ToArray();
+            if (genres.Length != genreIds.Length)
+            {
+                Console.WriteLine("Some of the genres could not be found. The song will not be created.");
+                return;
+            }
+
+            Song songToCreate = new Song { Name = name, ArtistId = artistId, Genres = genres };
+
             songService.Create(songToCreate);
 
             Console.WriteLine($"Song was created successfully! ID: {songToCreate.Id}");
@@ -100,12 +122,12 @@ namespace SampleApp1.Experiments
 
         private static void GetAllSongs(ISongService songService)
         {
-            List<SongGeneralInfoProjection> allSongs = songService.GetAllSongs().ToList();
+            List<SongGeneralInfoProjection> allSongs = songService.GetAll().ToList();
             foreach (var song in allSongs)
                 Console.WriteLine($"{song.Id}: \"{song.Name}\", {song.ArtistNickname}");
         }
 
-        private static void CreateArtist(SampleDbContext dbContext)
+        private static void CreateArtist(IArtistService artistService)
         {
             Console.Write("First name: ");
             string firstName = Console.ReadLine();
@@ -117,39 +139,50 @@ namespace SampleApp1.Experiments
             string nickname = Console.ReadLine();
 
             Artist artistToCreate = new Artist { FirstName = firstName, LastName = lastName, Nickname = nickname, };
-            dbContext.Artists.Add(artistToCreate);
-            dbContext.SaveChanges();
+            artistService.Create(artistToCreate);
 
             Console.WriteLine($"Artist was created successfully! ID: {artistToCreate.Id}");
         }
 
-        private static void GetAllArtists(SampleDbContext dbContext)
+        //private static void GetAllArtists(SampleDbContext dbContext)
+        //{
+        //    // 1. Include(..)
+        //    //List<Artist> allArtists = dbContext.Artists
+        //    //    .Include(x => x.Songs.OrderBy(y => y.Name))
+        //    //    .OrderBy(x => x.Nickname)
+        //    //    .ToList();
+
+        //    //foreach (Artist artist in allArtists)
+        //    //{
+        //    //    Console.WriteLine($"{artist.Id}: {artist.Nickname} ({artist.FirstName} {artist.LastName})");
+        //    //    foreach (Song song in artist.Songs)
+        //    //        Console.WriteLine($"--> {song.Id}: {song.Name}");
+        //    //}
+
+        //    // 2. Select(..) with anonymous type(s)
+        //    var allArtists = dbContext.Artists
+        //        .Select(a => new
+        //        {
+        //            a.Id,
+        //            a.Nickname,
+        //            a.FirstName,
+        //            a.LastName,
+        //            Songs = a.Songs.Select(s => new { s.Id, s.Name }).OrderBy(s => s.Name).ToList(),
+        //        })
+        //        .OrderBy(a => a.Nickname)
+        //        .ToList();
+
+        //    foreach (var artist in allArtists)
+        //    {
+        //        Console.WriteLine($"{artist.Id}: {artist.Nickname} ({artist.FirstName} {artist.LastName})");
+        //        foreach (var song in artist.Songs)
+        //            Console.WriteLine($"--> {song.Id}: {song.Name}");
+        //    }
+        //}
+
+        private static void GetAllArtists(IArtistService artistService)
         {
-            // 1. Include(..)
-            //List<Artist> allArtists = dbContext.Artists
-            //    .Include(x => x.Songs.OrderBy(y => y.Name))
-            //    .OrderBy(x => x.Nickname)
-            //    .ToList();
-
-            //foreach (Artist artist in allArtists)
-            //{
-            //    Console.WriteLine($"{artist.Id}: {artist.Nickname} ({artist.FirstName} {artist.LastName})");
-            //    foreach (Song song in artist.Songs)
-            //        Console.WriteLine($"--> {song.Id}: {song.Name}");
-            //}
-
-            // 2. Select(..) with anonymous type(s)
-            var allArtists = dbContext.Artists
-                .Select(a => new
-                {
-                    a.Id,
-                    a.Nickname,
-                    a.FirstName,
-                    a.LastName,
-                    Songs = a.Songs.Select(s => new { s.Id, s.Name }).OrderBy(s => s.Name).ToList(),
-                })
-                .OrderBy(a => a.Nickname)
-                .ToList();
+            var allArtists = artistService.GetAll();
 
             foreach (var artist in allArtists)
             {
@@ -157,6 +190,25 @@ namespace SampleApp1.Experiments
                 foreach (var song in artist.Songs)
                     Console.WriteLine($"--> {song.Id}: {song.Name}");
             }
+        }
+
+        private static void CreateGenre(IGenreService genreService)
+        {
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
+
+            Genre genreToCreate = new Genre { Name = name };
+            genreService.Create(genreToCreate);
+
+            Console.WriteLine($"Genre was created successfully! ID: {genreToCreate.Id}");
+        }
+
+        private static void GetAllGenres(IGenreService genreService)
+        {
+            var allGenres = genreService.GetAll();
+
+            foreach (var genre in allGenres)
+                Console.WriteLine($"{genre.Id}: {genre.Name}");
         }
     }
 }
