@@ -10,6 +10,7 @@ namespace SampleApp1.Web.MVC.Mapping
         public GenreProfile()
         {
             this.CreateMap<GenreGeneralInfoProjection, GenreViewModel>();
+            this.CreateMap<GenreMinifiedProjection, GenreMinifiedViewModel>();
             this.CreateMap<GenreCreateModel, Genre>();
             this.CreateMap<Genre, GenreEditModel>();
         }

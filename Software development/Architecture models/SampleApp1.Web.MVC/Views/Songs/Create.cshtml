@@ -1,0 +1,45 @@
+﻿@model SongFormViewModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Song</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="InputModel!.Name" class="control-label"></label>
+                <input asp-for="InputModel!.Name" class="form-control" />
+                <span asp-validation-for="InputModel!.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InputModel!.Artist" class="control-label"></label>
+                @* <select asp-for="InputModel!.Artist" asp-items="@Model.Artists.Select(a => new SelectListItem { Value = a.Id.ToString(), Text = a.Nickname })" class="form-control"></select> *@
+                <select asp-for="InputModel!.Artist" asp-items="@Model.Artists.ConstructListItems(a => a.Id.ToString(), a => a.Nickname)" class="form-control"></select>
+                <span asp-validation-for="InputModel!.Artist" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InputModel!.Genres" class="control-label"></label>
+                <select multiple asp-for="InputModel!.Genres" asp-items="@Model.Genres.Select(a => new SelectListItem { Value = a.Id.ToString(), Text = a.Name })" class="form-control"></select>
+                <span asp-validation-for="InputModel!.Genres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

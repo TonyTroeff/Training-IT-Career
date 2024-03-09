@@ -6,5 +6,6 @@ namespace SampleApp1.Core.Interfaces.Services
     public interface IArtistService : IService<Artist>
     {
         IEnumerable<ArtistGeneralInfoProjection> GetAll();
+        IEnumerable<ArtistMinifiedProjection> GetAllMinified();
     }
 }

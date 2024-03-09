@@ -7,5 +7,8 @@ namespace SampleApp1.Core.Interfaces.Services
     {
         IEnumerable<GenreGeneralInfoProjection> GetAll();
         GenreGeneralInfoProjection? GetOne(Guid id);
+
+        IEnumerable<GenreMinifiedProjection> GetAllMinified();
+        GenreMinifiedProjection? GetOneMinified(Guid id);
     }
 }

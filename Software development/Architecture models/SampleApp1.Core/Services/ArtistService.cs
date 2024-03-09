@@ -37,5 +37,19 @@ namespace SampleApp1.Core.Services
                 },
                 new[] { nicknameOrderClause });
         }
+
+        public IEnumerable<ArtistMinifiedProjection> GetAllMinified()
+        {
+            var nicknameOrderClause = new OrderClause<Artist> { Expression = a => a.Nickname };
+
+            return this.Repository.GetMany(
+                _ => true,
+                a => new ArtistMinifiedProjection
+                {
+                    Id = a.Id,
+                    Nickname = a.Nickname
+                },
+                new[] { nicknameOrderClause });
+        }
     }
 }

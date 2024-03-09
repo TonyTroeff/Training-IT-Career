@@ -47,10 +47,10 @@ namespace SampleApp1.Web.MVC.Controllers
         [HttpGet("delete")]
         public IActionResult Delete(Guid id)
         {
-            var genre = this._genreService.GetOne(id);
+            var genre = this._genreService.GetOneMinified(id);
             if (genre is null) return this.NotFound();
 
-            var viewModel = this._mapper.Map<GenreViewModel>(genre);
+            var viewModel = this._mapper.Map<GenreMinifiedViewModel>(genre);
             return this.View(viewModel);
         }
 

@@ -63,8 +63,14 @@ namespace SampleApp1.Web.MVC
 
         private static void RegisterServices(WebApplicationBuilder builder)
         {
+            builder.Services.AddScoped<IRepository<Artist>, Repository<Artist>>();
+            builder.Services.AddScoped<IArtistService, ArtistService>();
+
             builder.Services.AddScoped<IRepository<Genre>, Repository<Genre>>();
             builder.Services.AddScoped<IGenreService, GenreService>();
+
+            builder.Services.AddScoped<IRepository<Song>, Repository<Song>>();
+            builder.Services.AddScoped<ISongService, SongService>();
         }
 
         private static void RegisterAutoMapper(WebApplicationBuilder builder)

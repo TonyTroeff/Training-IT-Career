@@ -1,0 +1,52 @@
+﻿@model IEnumerable<SongViewModel>
+@{
+    ViewData["Title"] = "Songs";
+}
+
+<h1>Songs</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artist)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genres)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var viewModel in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => viewModel.Name)
+                </td>
+                <td>
+                    <a asp-controller="Artists" asp-action="Details" asp-route-id="@viewModel.Artist.Id">@viewModel.Artist.Nickname</a>
+                </td>
+                <td>
+                    @foreach (var genre in viewModel.Genres)
+                    {
+                        <div>
+                            <a asp-controller="Genres" asp-action="Details" asp-route-id="@genre.Id">@genre.Name</a>
+                        </div>
+                    }
+                </td>
+                <td>
+                    @* <a asp-action="Edit" asp-route-id="@viewModel.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@viewModel.Id">Details</a> | *@
+                    <a asp-action="Delete" asp-route-id="@viewModel.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

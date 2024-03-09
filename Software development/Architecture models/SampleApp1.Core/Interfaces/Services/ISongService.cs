@@ -6,5 +6,7 @@ namespace SampleApp1.Core.Interfaces.Services
     public interface ISongService : IService<Song>
     {
         IEnumerable<SongGeneralInfoProjection> GetAll();
+
+        SongMinifiedProjection? GetOneMinified(Guid id);
     }
 }
