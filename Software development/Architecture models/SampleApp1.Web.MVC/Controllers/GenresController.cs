@@ -64,7 +64,6 @@ namespace SampleApp1.Web.MVC.Controllers
         [HttpGet("details")]
         public IActionResult Details(Guid id)
         {
-            // TODO: Extend with statistics about songs and artists.
             var genre = this._genreService.GetOne(id);
             if (genre is null) return this.NotFound();
 
@@ -75,7 +74,7 @@ namespace SampleApp1.Web.MVC.Controllers
         [HttpGet("edit")]
         public IActionResult Edit(Guid id)
         {
-            var genre = this._genreService.GetById(id);
+            var genre = this._genreService.GetOneEdit(id);
             if (genre is null) return this.NotFound();
 
             var viewModel = this._mapper.Map<GenreEditModel>(genre);

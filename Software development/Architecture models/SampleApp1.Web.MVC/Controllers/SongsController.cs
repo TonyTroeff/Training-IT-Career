@@ -1,6 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Org.BouncyCastle.Utilities;
 using SampleApp1.Core.Interfaces.Services;
+using SampleApp1.Data;
 using SampleApp1.Data.Models;
 using SampleApp1.Web.ViewModels.Artists;
 using SampleApp1.Web.ViewModels.Genres;
@@ -36,7 +39,7 @@ namespace SampleApp1.Web.MVC.Controllers
         [HttpGet("create")]
         public IActionResult Create()
         {
-            var viewModel = this.PrepareFormViewModel();
+            var viewModel = this.PrepareFormViewModel<SongCreateModel>();
             return this.View(viewModel);
         }
 
@@ -49,20 +52,22 @@ namespace SampleApp1.Web.MVC.Controllers
                 return this.View(viewModel);
             }
 
-            var artist = this._artistService.GetById(inputModel.Artist);
-            if (artist is null) throw new InvalidOperationException("Artist not found");
-
-            var genres = this._genreService.GetByIds(inputModel.Genres).ToArray();
-            if (genres.Length != inputModel.Genres.Length)
-                throw new InvalidOperationException("Some of the genres are not found.");
-
-            var song = this._mapper.Map<Song>(inputModel);
-            song.Artist = artist;
-            song.Genres = genres;
+            var song = new Song();
+            this.ApplyChanges(song, inputModel);
 
             this._songService.Create(song);
 
             return this.RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet("details")]
+        public IActionResult Details(Guid id)
+        {
+            var song = this._songService.GetOne(id);
+            if (song is null) return this.NotFound();
+
+            var viewModel = this._mapper.Map<SongViewModel>(song);
+            return this.View(viewModel);
         }
 
         [HttpGet("delete")]
@@ -82,17 +87,60 @@ namespace SampleApp1.Web.MVC.Controllers
             return this.RedirectToAction(nameof(Index));
         }
 
-        private SongFormViewModel PrepareFormViewModel(SongCreateModel? inputModel = null)
+        [HttpGet("edit")]
+        public IActionResult Edit(Guid id)
+        {
+            var song = this._songService.GetOneEdit(id);
+            if (song is null) return this.NotFound();
+
+            var editModel = this._mapper.Map<SongEditModel>(song);
+            var formViewModel = this.PrepareFormViewModel(editModel);
+            return View(formViewModel);
+        }
+
+        [HttpPost("edit"), ValidateAntiForgeryToken]
+        public IActionResult Edit(SongEditModel inputModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                var viewModel = this.PrepareFormViewModel(inputModel);
+                return this.View(viewModel);
+            }
+
+            var song = this._songService.GetByIdWithNavigations(inputModel.Id, [nameof(Song.Genres)]);
+            if (song is null) return this.NotFound();
+
+            this.ApplyChanges(song, inputModel);
+            this._songService.Update(song);
+
+            return this.RedirectToAction(nameof(Index));
+        }
+
+        private SongFormViewModel<TInputModel> PrepareFormViewModel<TInputModel>(TInputModel? inputModel = default)
         {
             var allArtists = this._artistService.GetAllMinified();
             var allGenres = this._genreService.GetAllMinified();
 
-            return new SongFormViewModel
+            return new SongFormViewModel<TInputModel>
             {
                 Artists = this._mapper.Map<IEnumerable<ArtistMinifiedViewModel>>(allArtists),
                 Genres = this._mapper.Map<IEnumerable<GenreMinifiedViewModel>>(allGenres),
                 InputModel = inputModel
             };
+        }
+
+        private void ApplyChanges(Song song, SongCreateModel inputModel)
+        {
+            var artist = this._artistService.GetById(inputModel.Artist);
+            if (artist is null) throw new InvalidOperationException("Artist not found");
+
+            var genres = this._genreService.GetByIds(inputModel.Genres).ToList();
+            if (genres.Count != inputModel.Genres.Length)
+                throw new InvalidOperationException("Some of the genres are not found.");
+
+            this._mapper.Map(inputModel, song);
+            song.Artist = artist;
+            song.Genres = genres;
         }
     }
 }

@@ -10,6 +10,8 @@ namespace SampleApp1.Core.Interfaces.Services
         IEnumerable<TEntity> GetByIds(IEnumerable<Guid> ids);
 
         TEntity? GetById(Guid id);
+        TEntity? GetByIdComplete(Guid id);
+        TEntity? GetByIdWithNavigations(Guid id, IEnumerable<string> navigations);
 
         bool Create(TEntity entity);
         bool Update(TEntity entity);

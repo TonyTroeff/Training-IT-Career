@@ -20,7 +20,6 @@ namespace SampleApp1.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // TODO!
             base.OnModelCreating(modelBuilder);
         }
     }

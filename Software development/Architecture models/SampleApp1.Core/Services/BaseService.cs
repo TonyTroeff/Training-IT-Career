@@ -49,6 +49,16 @@ namespace SampleApp1.Core.Services
             return this.Repository.Get(e => e.Id == id);
         }
 
+        public TEntity? GetByIdComplete(Guid id)
+        {
+            return this.Repository.GetComplete(e => e.Id == id);
+        }
+
+        public TEntity? GetByIdWithNavigations(Guid id, IEnumerable<string> navigations)
+        {
+            return this.Repository.GetWithNavigations(e => e.Id == id, navigations);
+        }
+
         protected virtual bool IsValid(TEntity entity) => true;
     }
 }

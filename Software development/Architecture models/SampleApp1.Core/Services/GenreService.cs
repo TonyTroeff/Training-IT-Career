@@ -46,6 +46,17 @@ namespace SampleApp1.Core.Services
                 this.GetMinifiedProjection());
         }
 
+        public GenreEditProjection? GetOneEdit(Guid id)
+        {
+            return this.Repository.Get(
+                g => g.Id == id,
+                g => new GenreEditProjection
+                {
+                    Id = g.Id,
+                    Name = g.Name
+                });
+        }
+
         private Expression<Func<Genre, GenreGeneralInfoProjection>> GetGeneralInfoProjection()
         {
             return g => new GenreGeneralInfoProjection

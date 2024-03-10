@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp1.Experiments", "SampleApp1.Experiments\SampleApp1.Experiments.csproj", "{2C060C5E-1705-42DC-9503-80DB1DBAAD0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHttpServer", "SimpleHttpServer\SimpleHttpServer.csproj", "{245578B5-1567-43AB-977C-A0E6C5A1CB44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleHttpServer", "SimpleHttpServer\SimpleHttpServer.csproj", "{245578B5-1567-43AB-977C-A0E6C5A1CB44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp1.Core.Tests", "SampleApp1.Core.Tests\SampleApp1.Core.Tests.csproj", "{55939FAD-1A36-410F-9251-84494D0A9648}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{245578B5-1567-43AB-977C-A0E6C5A1CB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{245578B5-1567-43AB-977C-A0E6C5A1CB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{245578B5-1567-43AB-977C-A0E6C5A1CB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55939FAD-1A36-410F-9251-84494D0A9648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55939FAD-1A36-410F-9251-84494D0A9648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55939FAD-1A36-410F-9251-84494D0A9648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55939FAD-1A36-410F-9251-84494D0A9648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{928052EE-F5B9-4749-B628-2F6475184AC9} = {27471583-DC92-4B6C-B381-043C25A7DBF5}
 		{E25117DD-F615-42D3-ADDE-208AE96C3C87} = {27471583-DC92-4B6C-B381-043C25A7DBF5}
 		{2C060C5E-1705-42DC-9503-80DB1DBAAD0E} = {27471583-DC92-4B6C-B381-043C25A7DBF5}
+		{55939FAD-1A36-410F-9251-84494D0A9648} = {27471583-DC92-4B6C-B381-043C25A7DBF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F76E550E-0A0B-4E1A-8CC6-81AA9C409312}

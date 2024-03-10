@@ -1,12 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using SampleApp1.Core.Interfaces.Services;
-using SampleApp1.Core.Projections.Genres;
-using SampleApp1.Core.Services;
+using SampleApp1.Core.Configuration;
 using SampleApp1.Data;
-using SampleApp1.Data.Models;
-using SampleApp1.Data.Repositories;
-using SampleApp1.Web.ViewModels.Genres;
 using System.Reflection;
 
 namespace SampleApp1.Web.MVC
@@ -21,7 +15,7 @@ namespace SampleApp1.Web.MVC
             builder.Services.AddControllersWithViews();
 
             RegisterDbContext(builder);
-            RegisterServices(builder);
+            builder.Services.RegisterServices();
             RegisterAutoMapper(builder);
 
             var app = builder.Build();
@@ -59,18 +53,6 @@ namespace SampleApp1.Web.MVC
 
                 options.UseMySQL(connectionString);
             });
-        }
-
-        private static void RegisterServices(WebApplicationBuilder builder)
-        {
-            builder.Services.AddScoped<IRepository<Artist>, Repository<Artist>>();
-            builder.Services.AddScoped<IArtistService, ArtistService>();
-
-            builder.Services.AddScoped<IRepository<Genre>, Repository<Genre>>();
-            builder.Services.AddScoped<IGenreService, GenreService>();
-
-            builder.Services.AddScoped<IRepository<Song>, Repository<Song>>();
-            builder.Services.AddScoped<ISongService, SongService>();
         }
 
         private static void RegisterAutoMapper(WebApplicationBuilder builder)
