@@ -1,0 +1,21 @@
+﻿@model TaskGroupInputModel
+
+@{
+    ViewData["Title"] = "Create a new group";
+}
+
+<h1>Create a new group</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <partial name="TaskGroups/_Form" model='new ReusableForm<TaskGroupInputModel> { Action = "Create", Button = "Create", Data = Model }' />
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,12 @@
+﻿@model LabelViewModel[]
+
+@{
+    ViewData["Title"] = "Your labels";
+}
+
+<h1>Your labels</h1>
+
+<p>
+    <a asp-action="Create">Create a new label</a>
+</p>
+<partial name="Labels/_Table" />

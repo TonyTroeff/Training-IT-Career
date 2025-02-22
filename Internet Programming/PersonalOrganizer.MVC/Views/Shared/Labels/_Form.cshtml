@@ -1,0 +1,8 @@
+﻿@model ReusableForm<LabelInputModel>
+
+<form asp-action="@Model.Action">
+    <partial name="Labels/_Inputs" model="Model.Data" />
+    <div class="form-group">
+        <input type="submit" value="@Model.Button" class="btn btn-primary" />
+    </div>
+</form>

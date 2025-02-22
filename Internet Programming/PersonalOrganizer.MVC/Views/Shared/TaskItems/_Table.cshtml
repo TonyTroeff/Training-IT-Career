@@ -1,0 +1,63 @@
+﻿@model TaskItemViewModel[]
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameForInnerType((TaskItemViewModel model) => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameForInnerType((TaskItemViewModel model) => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameForInnerType((TaskItemViewModel model) => model.DueDate)
+            </th>
+            <th>
+                @Html.DisplayNameForInnerType((TaskItemViewModel model) => model.Group)
+            </th>
+            <th>
+                @Html.DisplayNameForInnerType((TaskItemViewModel model) => model.Labels)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DueDate)
+                </td>
+                <td>
+                    @if (item.Group is not null) {
+                        <a asp-controller="TaskGroups" asp-action="Details" asp-route-id="@item.Group.Id">
+                            @item.Group.Name
+                        </a>
+                    }
+                </td>
+                <td>
+                    <ul>
+                        @foreach (LabelViewModel label in item.Labels) {
+                            <li>
+                                <a asp-controller="Labels" asp-action="Details" asp-route-id="@label.Id">
+                                    @label.Name
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,21 @@
+﻿@model LabelInputModel
+
+@{
+    ViewData["Title"] = "Create a new label";
+}
+
+<h1>Create a new label</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <partial name="Labels/_Form" model='new ReusableForm<LabelInputModel> { Action = "Create", Button = "Create", Data = Model }' />
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

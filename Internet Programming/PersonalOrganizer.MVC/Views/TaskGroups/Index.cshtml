@@ -1,0 +1,12 @@
+﻿@model TaskGroupViewModel[]
+
+@{
+    ViewData["Title"] = "Your groups";
+}
+
+<h1>Your groups</h1>
+
+<p>
+    <a asp-action="Create">Create a new group</a>
+</p>
+<partial name="TaskGroups/_Table" />

@@ -1,0 +1,48 @@
+﻿@model TaskItemViewModel
+
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Title)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Title)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Description)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Description)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.DueDate)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.DueDate)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Group)
+    </dt>
+    <dd class="col-sm-10">
+        @if (Model.Group is not null)
+        {
+            <a asp-controller="TaskGroups" asp-action="Details" asp-route-id="@Model.Group.Id">
+                @Model.Group.Name
+            </a>
+        }
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Labels)
+    </dt>
+    <dd class="col-sm-10">
+        <ul>
+            @foreach (LabelViewModel label in Model.Labels)
+            {
+                <li>
+                    <a asp-controller="Labels" asp-action="Details" asp-route-id="@label.Id">
+                        @label.Name
+                    </a>
+                </li>
+            }
+        </ul>
+    </dd>
+</dl>

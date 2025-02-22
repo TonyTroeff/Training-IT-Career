@@ -1,0 +1,12 @@
+﻿@model TaskItemViewModel[]
+
+@{
+    ViewData["Title"] = "Your tasks";
+}
+
+<h1>Your tasks</h1>
+
+<p>
+    <a asp-action="Create">Create a new task</a>
+</p>
+<partial name="TaskItems/_Table" />
